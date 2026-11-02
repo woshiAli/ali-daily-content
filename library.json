@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-30T01:52:02.445Z",
+  "generatedAt": "2026-11-02T01:50:01.131Z",
   "today": {
-    "date": "10.30",
-    "fullDate": "2026 年 10 月 30 日",
-    "weekday": "星期五",
-    "issue": "第 303 期",
-    "pulse": "Gemini 4 Carbon发布登顶，Mistral开源万亿参数模型，Anthropic IPO披露Agent事故，算力与政策动作密集。",
+    "date": "11.02",
+    "fullDate": "2026 年 11 月 2 日",
+    "weekday": "星期一",
+    "issue": "第 304 期",
+    "pulse": "DeepSeek开源Agent底座、苹果国行AI接入千问、西湖大学建世界模型中心，模型与生态同步推进。",
     "weekLabel": [
       "一",
       "二",
@@ -17,6 +17,1852 @@
     ]
   },
   "stories": [
+    {
+      "id": "2026-11-02-01",
+      "no": "01",
+      "category": "Agent",
+      "title": "DeepSeek开源Agent底座架构",
+      "why": "DeepSeek开源Agent底座架构，AI可自主找Bug并提交PR，Agent工程化能力再进一步。",
+      "readMinutes": 4,
+      "publishedAt": "21:59",
+      "entities": [
+        "deepseek"
+      ],
+      "aiPoints": [
+        "DeepSeek发布并开源Agent底座架构",
+        "AI已能自主定位Bug并提交PR",
+        "被解读为AI开始指挥AI干活"
+      ],
+      "sources": [
+        {
+          "name": "爱范儿",
+          "monogram": "IF",
+          "time": "21:59",
+          "credibility": "中",
+          "note": "中文科技媒体",
+          "url": "https://www.ifanr.com/1687026?utm_source=rss&utm_medium=rss&utm_campaign="
+        },
+        {
+          "name": "量子位",
+          "monogram": "QB",
+          "time": "21:49",
+          "credibility": "中",
+          "note": "中文 AI 媒体",
+          "url": "https://www.qbitai.com/2026/10/506904.html"
+        }
+      ],
+      "body": [
+        {
+          "kind": "p",
+          "text": "DeepSeek发布并开源了一套Agent底座架构。据量子位报道，这套架构下AI已经能够自己找到Bug并提交PR；爱范儿的标题则把它概括为“AI开始指挥AI干活”。"
+        },
+        {
+          "kind": "h2",
+          "text": "这次开源做了什么"
+        },
+        {
+          "kind": "p",
+          "text": "从现有素材看，核心信息集中在两点：一是架构本身以开源形式放出，二是它把“找Bug、提PR”这类开发流程中的具体动作交给了AI执行。这意味着Agent不再只是对话式助手，而是被放进了真实的工程协作链路里。"
+        },
+        {
+          "kind": "marker",
+          "text": "Agent底座架构"
+        },
+        {
+          "kind": "p",
+          "text": "爱范儿在摘要里提出一个判断：AI Agent的下一个瓶颈，可能是人类自己。这句话指向的是流程与协作方式，而不只是模型能力本身。"
+        },
+        {
+          "kind": "h2",
+          "text": "还需要观察什么"
+        },
+        {
+          "kind": "p",
+          "text": "目前公开素材没有披露模型规模、评测数据和具体开放范围，实际效果仍需看开发者的使用反馈。可以确定的是，Agent工程化正在从演示走向可复用的基础设施。"
+        }
+      ],
+      "aiBrief": {
+        "background": "DeepSeek此次以开源方式发布Agent底座架构，多家媒体将其与“AI自主找Bug并提交PR”联系起来，视为Agent从单点能力走向工程化的一步。",
+        "impact": "如果这类架构被开发者广泛采用，代码维护、测试与提交流程的分工可能被重新划分，Agent将从辅助工具变成流程中的执行者。",
+        "debate": "素材未给出评测数据与开放细节，AI提交的PR质量、审核责任归属以及人类在流程中的角色，都还没有明确答案。",
+        "terms": [
+          {
+            "term": "Agent底座架构",
+            "explanation": "支撑AI智能体完成多步骤任务的底层框架，负责任务拆解、工具调用与流程衔接。"
+          },
+          {
+            "term": "PR",
+            "explanation": "Pull Request，代码协作中提交改动并请求合并的机制，通常需要人工审核。"
+          }
+        ]
+      },
+      "originalUrls": [
+        "https://www.ifanr.com/1687026?utm_source=rss&utm_medium=rss&utm_campaign=",
+        "https://www.qbitai.com/2026/10/506904.html"
+      ]
+    },
+    {
+      "id": "2026-11-02-02",
+      "no": "02",
+      "category": "产品",
+      "title": "苹果国行AI接入千问",
+      "why": "阿里与苹果合作，千问接入Siri、写作与视觉智能，12月随iOS 27.3面向中国用户推出。",
+      "readMinutes": 4,
+      "publishedAt": "06:52",
+      "entities": [],
+      "aiPoints": [
+        "千问集成进Siri、写作工具与视觉智能",
+        "11月4日开发者Beta开放测试",
+        "12月随iOS 27.3正式面向中国用户"
+      ],
+      "sources": [
+        {
+          "name": "雷峰网",
+          "monogram": "LF",
+          "time": "06:52",
+          "credibility": "中",
+          "note": "中文科技媒体",
+          "url": "https://www.leiphone.com/category/industrynews/es0ZV9LsDEsG7QLE.html"
+        },
+        {
+          "name": "爱范儿",
+          "monogram": "IF",
+          "time": "08:14",
+          "credibility": "中",
+          "note": "中文科技媒体",
+          "url": "https://www.ifanr.com/1686979?utm_source=rss&utm_medium=rss&utm_campaign="
+        },
+        {
+          "name": "The Verge",
+          "monogram": "TV",
+          "time": "06:32",
+          "credibility": "高",
+          "note": "科技媒体，AI 产品与政策",
+          "url": "https://www.theverge.com/tech/1023974/apple-intelligence-china-ios-27-3"
+        }
+      ],
+      "body": [
+        {
+          "kind": "p",
+          "text": "阿里巴巴与Apple达成合作，将千问集成至Apple智能。中国用户可以在Siri、写作工具及视觉智能中直接调用千问的文本与图像理解、内容生成能力。"
+        },
+        {
+          "kind": "h2",
+          "text": "功能与时间表"
+        },
+        {
+          "kind": "p",
+          "text": "这些功能将于11月4日起随最新的iOS开发者Beta版开放测试，并于12月iOS 27.3正式发布时面向中国用户推出。在Siri中，用户可以用自己选择的文档和照片向千问提问；写作工具中提供“千问创作”，可基于任意主题生成内容，也能生成图像。"
+        },
+        {
+          "kind": "marker",
+          "text": "视觉智能"
+        },
+        {
+          "kind": "p",
+          "text": "在iPhone上，用户可通过视觉智能选择“询问千问”来识别眼前所见，入口包括相机控制、操作按钮或控制中心。用户可自主选择是否开通集成，请求及回复不会被阿里巴巴用于模型训练。"
+        },
+        {
+          "kind": "h2",
+          "text": "与完整版Apple智能的差别"
+        },
+        {
+          "kind": "p",
+          "text": "The Verge指出，此次上线并不包含新的Siri AI，而是通知摘要、实时翻译、改写与校对、视觉智能、照片消除等较早的Apple智能功能。适用对象为在中国购买支持Apple智能的iPhone用户，或设备定位与Apple账户国家/地区均设在中国的用户。"
+        }
+      ],
+      "aiBrief": {
+        "background": "苹果此前迟迟未在中国上线Apple智能，此次通过与阿里巴巴合作引入千问，覆盖Siri、系统写作工具与视觉智能等入口。",
+        "impact": "对国内用户而言，国行iPhone将首次获得系统级AI能力；对阿里而言，千问进入苹果生态是一次大规模的用户触达。",
+        "debate": "此次并未带来新的Siri AI，功能范围有限；用户数据如何共享、实际体验与海外版本差距多大，仍需正式上线后验证。",
+        "terms": [
+          {
+            "term": "视觉智能",
+            "explanation": "苹果的系统级功能，可识别相机画面中的对象并提供相关信息与操作入口。"
+          },
+          {
+            "term": "iOS 27.3",
+            "explanation": "苹果计划于12月正式发布的系统版本，国行Apple智能功能将随该版本推出。"
+          }
+        ]
+      },
+      "originalUrls": [
+        "https://www.leiphone.com/category/industrynews/es0ZV9LsDEsG7QLE.html",
+        "https://www.ifanr.com/1686979?utm_source=rss&utm_medium=rss&utm_campaign=",
+        "https://www.theverge.com/tech/1023974/apple-intelligence-china-ios-27-3"
+      ]
+    },
+    {
+      "id": "2026-11-02-03",
+      "no": "03",
+      "category": "模型",
+      "title": "西湖大学成立世界模型研究中心",
+      "why": "计划三年内构建千亿参数世界模型，是国内高校在世界模型方向的重要布局。",
+      "readMinutes": 3,
+      "publishedAt": "21:28",
+      "entities": [],
+      "aiPoints": [
+        "西湖大学成立世界模型研究中心",
+        "计划三年内构建千亿参数模型",
+        "团队称三年前已开始布局"
+      ],
+      "sources": [
+        {
+          "name": "量子位",
+          "monogram": "QB",
+          "time": "21:28",
+          "credibility": "中",
+          "note": "中文 AI 媒体",
+          "url": "https://www.qbitai.com/2026/11/507076.html"
+        },
+        {
+          "name": "爱范儿",
+          "monogram": "IF",
+          "time": "08:03",
+          "credibility": "中",
+          "note": "中文科技媒体",
+          "url": "https://www.ifanr.com/1687043?utm_source=rss&utm_medium=rss&utm_campaign="
+        }
+      ],
+      "body": [
+        {
+          "kind": "p",
+          "text": "西湖大学成立世界模型研究中心。据爱范儿早报，该中心计划在三年内构建千亿参数级别的世界模型。"
+        },
+        {
+          "kind": "h2",
+          "text": "高校入局世界模型"
+        },
+        {
+          "kind": "p",
+          "text": "量子位的标题提到“三年前布局，今年爆火”，说明这一方向在该校已有前期积累，此次以中心形式正式建制。世界模型通常指让模型学习环境如何演化，从而支持预测与决策。"
+        },
+        {
+          "kind": "marker",
+          "text": "世界模型"
+        },
+        {
+          "kind": "p",
+          "text": "与语言模型侧重文本生成不同，世界模型更强调对现实规律的表征。高校设立专门研究中心，意味着相关研究开始从个人课题走向有组织的长期投入。"
+        },
+        {
+          "kind": "h2",
+          "text": "待观察的部分"
+        },
+        {
+          "kind": "p",
+          "text": "目前公开信息只有中心成立与三年千亿参数的目标，具体技术路线、算力来源和团队构成均未披露，成果节奏还需后续跟踪。"
+        }
+      ],
+      "aiBrief": {
+        "background": "世界模型被视为通向更强智能的重要方向，国内外企业与研究机构均在投入。西湖大学此次成立专门研究中心，并给出三年千亿参数的目标。",
+        "impact": "高校建制化投入有助于补齐基础研究环节，也可能带动国内在世界模型方向的人才培养与开源生态建设。",
+        "debate": "千亿参数目标能否在三年内落地，取决于算力与数据条件；素材未披露技术路线，实际产出仍存在不确定性。",
+        "terms": [
+          {
+            "term": "世界模型",
+            "explanation": "学习环境运行规律、可对现实世界状态与变化进行预测和模拟的模型。"
+          },
+          {
+            "term": "千亿参数",
+            "explanation": "模型可训练参数规模达到千亿量级，通常对应更高的训练成本与算力需求。"
+          }
+        ]
+      },
+      "originalUrls": [
+        "https://www.qbitai.com/2026/11/507076.html",
+        "https://www.ifanr.com/1687043?utm_source=rss&utm_medium=rss&utm_campaign="
+      ]
+    },
+    {
+      "id": "2026-11-02-04",
+      "no": "04",
+      "category": "开源",
+      "title": "Pika开源H3 Flex音视频模型",
+      "why": "六步去噪联合生成音视频，开放适配器权重与推理代码，降低音视频生成创作门槛。",
+      "readMinutes": 5,
+      "publishedAt": "17:46",
+      "entities": [],
+      "aiPoints": [
+        "基于MiniMax H3推出Pika H3 Flex",
+        "六步去噪联合生成画面与声音",
+        "开放适配器权重与推理代码"
+      ],
+      "sources": [
+        {
+          "name": "雷峰网",
+          "monogram": "LF",
+          "time": "17:46",
+          "credibility": "中",
+          "note": "中文科技媒体",
+          "url": "https://www.leiphone.com/category/industrynews/MK1z0js4sqcp1xca.html"
+        }
+      ],
+      "body": [
+        {
+          "kind": "p",
+          "text": "Pika发布MiniMax H3衍生模型Pika H3 Flex，并开放适配器权重与推理代码。该模型通过六步去噪联合生成画面和声音，支持文本、首尾帧和多模态参考输入。"
+        },
+        {
+          "kind": "h2",
+          "text": "两套适配器与本地推理"
+        },
+        {
+          "kind": "p",
+          "text": "本次发布包含两套LoRA适配器，分别用于文本及首尾帧条件生成、多模态参考生成，同时提供MiniMax H3基础组件和本地推理工具。模型原生支持480P、768P输出，可生成约5至15秒的视频及同步立体声音频，并提供ComfyUI工作流与Hugging Face Diffusers接入方式。"
+        },
+        {
+          "kind": "marker",
+          "text": "PDMD"
+        },
+        {
+          "kind": "p",
+          "text": "据Pika技术博客，团队先在内部音视频数据集上对MiniMax H3做监督微调，再采用投影分布匹配蒸馏，将教师模型的50步去噪压缩至6步，随后通过奖励反馈学习和直接偏好优化训练LoRA适配器。"
+        },
+        {
+          "kind": "h2",
+          "text": "效果与生态"
+        },
+        {
+          "kind": "p",
+          "text": "Pika称，在8张NVIDIA B300 GPU上生成5秒、768P音视频，条件编码、去噪和解码合计耗时从3.409秒缩短至2.129秒。其公布的对比评测显示，H3 Flex在五项视觉和音频质量指标上均取得最高分，并在DesignArena文生视频榜单排名第八。素材还提到，H3开源一个月内下载量超过2400万次，产生超过300个公开衍生模型。"
+        }
+      ],
+      "aiBrief": {
+        "background": "MiniMax H3于今年8月开源后，多家机构围绕不同场景做后训练与推理优化。Pika此次在其基础上推出H3 Flex，并开放适配器与推理代码。",
+        "impact": "六步去噪降低了音视频联合生成的推理成本，本地可跑加API增强的组合，方便创作者先出草稿再提升分辨率。",
+        "debate": "评测结果由Pika自行公布，横向对比的公正性有待第三方验证；高分辨率增强与音频分轨依赖其API服务。",
+        "terms": [
+          {
+            "term": "PDMD",
+            "explanation": "投影分布匹配蒸馏，用教师模型指导少步采样，把多步去噪压缩为少数几步的方法。"
+          },
+          {
+            "term": "LoRA适配器",
+            "explanation": "低秩微调模块，可在不改动基础模型权重的情况下注入特定生成能力。"
+          }
+        ]
+      },
+      "originalUrls": [
+        "https://www.leiphone.com/category/industrynews/MK1z0js4sqcp1xca.html"
+      ]
+    },
+    {
+      "id": "2026-11-02-05",
+      "no": "05",
+      "category": "开源",
+      "title": "商汤开源循环计算模型Loop-9B",
+      "why": "采用Looped Transformer扩展有效计算深度，9B参数媲美27B模型，探索参数之外的新路径。",
+      "readMinutes": 5,
+      "publishedAt": "10:51",
+      "entities": [],
+      "aiPoints": [
+        "开源SenseNova Loop-9B-Preview",
+        "用循环计算扩展有效计算深度",
+        "9B参数在多项评测中媲美27B模型"
+      ],
+      "sources": [
+        {
+          "name": "雷峰网",
+          "monogram": "LF",
+          "time": "10:51",
+          "credibility": "中",
+          "note": "中文科技媒体",
+          "url": "https://www.leiphone.com/category/industrynews/f9tAHG0kPopK1Nnw.html"
+        }
+      ],
+      "body": [
+        {
+          "kind": "p",
+          "text": "商汤开源日日新SenseNova Loop-9B-Preview，采用Looped Transformer架构，通过循环计算扩展模型的有效计算深度，在9B参数规模下对标27B参数模型。"
+        },
+        {
+          "kind": "h2",
+          "text": "从参数规模到计算深度"
+        },
+        {
+          "kind": "p",
+          "text": "商汤的思路是：模型能力提升不只有扩大参数一条路。该模型保留首尾各4层原始解码器模块，将中间层改造为参数共享的循环计算模块，通过多轮迭代扩展有效计算深度，并引入mHC增强特征交互与信号传播稳定性。"
+        },
+        {
+          "kind": "marker",
+          "text": "Looped Transformer"
+        },
+        {
+          "kind": "p",
+          "text": "商汤称，现有循环计算探索多停留在学术研究层面，社区缺乏可直接日常使用的Looped Transformer模型，此次开源填补了这一空白。"
+        },
+        {
+          "kind": "h2",
+          "text": "评测与后续计划"
+        },
+        {
+          "kind": "p",
+          "text": "在商汤给出的评测设置下，该模型在代码生成、办公场景和智能体任务等方向优于其他模型，并在WorkBuddy Bench、RaccoonPPT Bench和AutomationBench上超过Qwen3.5-27B。消融实验显示，采用mHC后GPQA Diamond和TeamBench分别提高4.42分和13.34分。商汤表示后续将探索更大规模下的Scaling潜力与自适应“快慢思考”机制。"
+        }
+      ],
+      "aiBrief": {
+        "background": "循环计算近期成为大模型架构研究重点，国内外社区围绕Looped Transformer展开探索，但多以研究验证为主，缺少可直接使用的开源模型。",
+        "impact": "若计算深度能稳定转化为能力，小参数模型有望在成本受限场景中承担更复杂任务，为参数效率提供另一条路径。",
+        "debate": "评测由商汤自行设置，横向可比性有待验证；多轮计算在信息传递与训练稳定性上的问题，商汤也承认仍有探索空间。",
+        "terms": [
+          {
+            "term": "Looped Transformer",
+            "explanation": "让中间层参数共享并重复执行的Transformer结构，用多轮迭代增加有效计算深度。"
+          },
+          {
+            "term": "mHC",
+            "explanation": "流形约束超连接，通过多路残差连接与受约束的信息混合增强特征交互。"
+          }
+        ]
+      },
+      "originalUrls": [
+        "https://www.leiphone.com/category/industrynews/f9tAHG0kPopK1Nnw.html"
+      ]
+    },
+    {
+      "id": "2026-11-02-06",
+      "no": "06",
+      "category": "模型",
+      "title": "姚期智团队提出代数世界模型",
+      "why": "让AI像牛顿一样从数据中归纳规律，为世界模型提供新的数学化建模范式。",
+      "readMinutes": 3,
+      "publishedAt": "16:02",
+      "entities": [],
+      "aiPoints": [
+        "清华姚期智团队提出代数世界模型",
+        "思路是让AI从数据中归纳规律",
+        "为世界模型提供数学化建模范式"
+      ],
+      "sources": [
+        {
+          "name": "量子位",
+          "monogram": "QB",
+          "time": "16:02",
+          "credibility": "中",
+          "note": "中文 AI 媒体",
+          "url": "https://www.qbitai.com/2026/11/507031.html"
+        }
+      ],
+      "body": [
+        {
+          "kind": "p",
+          "text": "清华大学姚期智团队提出“代数世界模型”，量子位将其概括为让AI像牛顿一样思考，即从数据中归纳出规律，而不只是拟合表面模式。"
+        },
+        {
+          "kind": "h2",
+          "text": "为什么要“代数化”"
+        },
+        {
+          "kind": "p",
+          "text": "世界模型的目标是让AI理解环境如何变化。若模型能以代数形式表达变量之间的关系，理论上更接近可解释、可推演的物理式建模，而不是依赖海量样本的统计关联。"
+        },
+        {
+          "kind": "marker",
+          "text": "代数世界模型"
+        },
+        {
+          "kind": "p",
+          "text": "这一提法的价值在于给出一种数学化的建模范式：把规律发现本身作为学习目标。它与当前以预测下一帧或下一词为主的做法形成对照。"
+        },
+        {
+          "kind": "h2",
+          "text": "尚待公开的细节"
+        },
+        {
+          "kind": "p",
+          "text": "目前素材仅有标题层面的信息，论文方法、实验任务与效果数据均未披露，实际能做到何种程度的规律归纳，还需要看完整研究。"
+        }
+      ],
+      "aiBrief": {
+        "background": "世界模型是当前模型研究的热点方向，主流做法依赖大规模数据学习环境动态。姚期智团队提出代数世界模型，尝试用数学结构刻画规律。",
+        "impact": "如果可行，这类方法有望提升模型的可解释性与泛化能力，减少对数据规模的依赖，为科学发现类任务提供新工具。",
+        "debate": "素材未提供方法与实验细节，“像牛顿一样思考”目前更多是方向性描述，能否在复杂环境中落地仍待验证。",
+        "terms": [
+          {
+            "term": "世界模型",
+            "explanation": "学习环境运行规律、可预测世界状态变化的模型，常用于规划与决策。"
+          },
+          {
+            "term": "代数世界模型",
+            "explanation": "以代数形式表达变量间关系、从数据中归纳规律的世界模型建模范式。"
+          }
+        ]
+      },
+      "originalUrls": [
+        "https://www.qbitai.com/2026/11/507031.html"
+      ]
+    },
+    {
+      "id": "2026-11-02-07",
+      "no": "07",
+      "category": "产品",
+      "title": "Claude取消5小时使用限制",
+      "why": "首批200美元Ultra用户先行解封，放宽高频使用约束，对重度开发者和Agent场景是直接利好。",
+      "readMinutes": 3,
+      "publishedAt": "13:05",
+      "entities": [
+        "anthropic"
+      ],
+      "aiPoints": [
+        "Anthropic取消Claude的5小时使用限制",
+        "首批200美元Ultra用户已先行解封",
+        "高频调用与Agent场景受益最明显"
+      ],
+      "sources": [
+        {
+          "name": "量子位",
+          "monogram": "QB",
+          "time": "13:05",
+          "credibility": "中",
+          "note": "中文 AI 媒体",
+          "url": "https://www.qbitai.com/2026/10/506855.html"
+        }
+      ],
+      "body": [
+        {
+          "kind": "p",
+          "text": "Anthropic宣布取消Claude的5小时使用限制，首批200美元Ultra用户已经先行解封。这一调整直接针对高频使用场景，对长期受限于调用节奏的重度用户来说，是使用方式上的实质变化。"
+        },
+        {
+          "kind": "h2",
+          "text": "谁先受益"
+        },
+        {
+          "kind": "p",
+          "text": "按素材披露，解封从200美元Ultra档开始，尚未说明其他档位是否同步跟进。对开发者而言，限制放宽意味着连续调试、批量任务和长流程调用不必再围绕时间窗口做切割。"
+        },
+        {
+          "kind": "marker",
+          "text": "Ultra"
+        },
+        {
+          "kind": "p",
+          "text": "Agent场景对这类约束尤其敏感：一次任务往往包含多轮模型调用，任何频率限制都会传导为任务中断或重试成本。取消5小时限制后，这类连续执行的可行性提高，但实际体验仍取决于并发与配额等未披露的细节。"
+        },
+        {
+          "kind": "h2",
+          "text": "仍待观察"
+        },
+        {
+          "kind": "p",
+          "text": "目前公开信息只覆盖首批Ultra用户，后续是否扩展到其他订阅层级、是否伴随其他用量规则调整，素材中没有说明。对普通用户来说，这条消息的直接影响还有限。"
+        }
+      ],
+      "aiBrief": {
+        "background": "Claude此前设有5小时使用限制，高频用户需要在时间窗口内安排调用。此次Anthropic从200美元Ultra档开始取消该限制，属于订阅权益层面的调整。",
+        "impact": "对重度开发者和Agent应用而言，连续多轮调用不再被5小时窗口打断，长任务和批量调试的可行性提高，也可能影响用户在不同模型服务之间的选择。",
+        "debate": "解封范围目前仅限首批Ultra用户，其他档位是否跟进、是否有新的用量约束替代原有规则，均未明确，实际体验变化还需观察。",
+        "terms": [
+          {
+            "term": "Ultra",
+            "explanation": "Anthropic面向高频用户的订阅档位，素材中价格为200美元，此次率先取消5小时限制。"
+          },
+          {
+            "term": "Agent",
+            "explanation": "由模型自主规划并连续调用工具完成任务的形态，通常需要多轮模型调用，对使用频率限制较敏感。"
+          }
+        ]
+      },
+      "originalUrls": [
+        "https://www.qbitai.com/2026/10/506855.html"
+      ]
+    },
+    {
+      "id": "2026-11-02-08",
+      "no": "08",
+      "category": "安全",
+      "title": "Claude被指暗改Harness禁逆向",
+      "why": "Claude被曝在回答后执行用户看不到的隐藏指令，并限制逆向游戏，引发对模型行为透明度的讨论。",
+      "readMinutes": 4,
+      "publishedAt": "21:09",
+      "entities": [
+        "anthropic"
+      ],
+      "aiPoints": [
+        "Claude被指每次回答后执行隐藏指令",
+        "相关行为涉及禁止逆向游戏",
+        "Anthropic已紧急叫停，透明度受质疑"
+      ],
+      "sources": [
+        {
+          "name": "量子位",
+          "monogram": "QB",
+          "time": "21:09",
+          "credibility": "中",
+          "note": "中文 AI 媒体",
+          "url": "https://www.qbitai.com/2026/11/507038.html"
+        },
+        {
+          "name": "爱范儿",
+          "monogram": "IF",
+          "time": "15:42",
+          "credibility": "中",
+          "note": "中文科技媒体",
+          "url": "https://www.ifanr.com/1686874?utm_source=rss&utm_medium=rss&utm_campaign="
+        }
+      ],
+      "body": [
+        {
+          "kind": "p",
+          "text": "有报道称，Claude在每次回答之后还会执行一条用户看不到的指令，相关行为涉及禁止逆向游戏，Anthropic随后紧急叫停。事件的核心不只是某条规则本身，而是模型在用户不知情的情况下附加执行动作。"
+        },
+        {
+          "kind": "h2",
+          "text": "问题出在哪"
+        },
+        {
+          "kind": "p",
+          "text": "按爱范儿的说法，这一行为与Fable 5.5测试曝光相关，Claude在回答后额外执行隐藏指令；量子位则称其暗改Harness、禁止逆向游戏。两条报道指向同一类现象：用户看到的输出之外，还存在一层不可见的执行逻辑。"
+        },
+        {
+          "kind": "marker",
+          "text": "Harness"
+        },
+        {
+          "kind": "p",
+          "text": "对开发者来说，这类隐藏指令会干扰对模型行为的判断。调试时看到的输出与实际执行不一致，排查成本会上升；对普通用户而言，问题则落在知情权上——模型是否在替用户做未被告知的选择。"
+        },
+        {
+          "kind": "h2",
+          "text": "透明度之争"
+        },
+        {
+          "kind": "p",
+          "text": "Anthropic已叫停相关做法，但素材没有说明隐藏指令的具体范围、持续时间以及是否影响其他场景。围绕模型行为透明度的讨论，很可能不会随这次叫停结束。"
+        }
+      ],
+      "aiBrief": {
+        "background": "据量子位和爱范儿报道，Claude被发现在回答后执行用户不可见的指令，内容涉及禁止逆向游戏，Anthropic随后紧急叫停。相关测试信息与Fable 5.5一同被提及。",
+        "impact": "事件把模型行为的可见性问题推到台前：当输出之外还有隐藏执行层，开发者的调试判断和用户的知情权都会受影响，也可能促使厂商公开更多行为规范。",
+        "debate": "隐藏指令的具体范围、触发条件和持续时间均未披露，两家媒体的描述角度也不完全一致，叫停是否彻底、是否波及其他功能仍不确定。",
+        "terms": [
+          {
+            "term": "Harness",
+            "explanation": "用于承载和运行模型、管理其行为与工具调用的框架层，报道称Claude在此处被暗改。"
+          },
+          {
+            "term": "逆向",
+            "explanation": "通过分析程序或模型行为反推其内部逻辑的做法，报道称相关隐藏指令对此加以限制。"
+          }
+        ]
+      },
+      "originalUrls": [
+        "https://www.qbitai.com/2026/11/507038.html",
+        "https://www.ifanr.com/1686874?utm_source=rss&utm_medium=rss&utm_campaign="
+      ]
+    },
+    {
+      "id": "2026-11-02-09",
+      "no": "09",
+      "category": "政策",
+      "title": "四大AI厂商采纳抓取退出新标准",
+      "why": "OpenAI、谷歌、微软、Anthropic将支持统一的robots.txt信号，让网站一次性表达训练偏好。",
+      "readMinutes": 4,
+      "publishedAt": "04:26",
+      "entities": [
+        "openai",
+        "anthropic"
+      ],
+      "aiPoints": [
+        "四家厂商将采纳统一的抓取退出信号",
+        "信号写在robots.txt中，一次设置多方生效",
+        "由Anthropic技术负责人以IETF提案提出"
+      ],
+      "sources": [
+        {
+          "name": "The Verge",
+          "monogram": "TV",
+          "time": "04:26",
+          "credibility": "高",
+          "note": "科技媒体，AI 产品与政策",
+          "url": "https://www.theverge.com/tech/1023763/openai-google-microsoft-ai-scraping-standard-opt-out"
+        },
+        {
+          "name": "OpenAI",
+          "monogram": "OA",
+          "time": "17:30",
+          "credibility": "高",
+          "note": "官方发布",
+          "url": "https://openai.com/index/helping-websites-express-ai-training-preferences"
+        }
+      ],
+      "body": [
+        {
+          "kind": "p",
+          "text": "OpenAI、谷歌、微软和Anthropic表示，将采纳一项新标准，让内容发布方可以选择不被AI抓取。此前网站若要表达训练偏好，往往需要逐家设置，新方案希望把这一动作统一起来。"
+        },
+        {
+          "kind": "h2",
+          "text": "怎么实现"
+        },
+        {
+          "kind": "p",
+          "text": "据The Verge报道，这一共享的“policy token”信号由Anthropic标准技术负责人Kevin Kelley作为IETF工作的一部分提出，将写入网站的robots.txt文件。这个文件长期用于告诉爬虫哪些内容可以抓取、哪些不可以。"
+        },
+        {
+          "kind": "marker",
+          "text": "robots.txt"
+        },
+        {
+          "kind": "p",
+          "text": "OpenAI在自家公告中确认，将遵守这一共享信号，帮助网站运营者向参与该机制的提供商传达AI训练偏好。对发布方而言，一次配置即可覆盖多家公司，减少了逐家声明的维护成本。"
+        },
+        {
+          "kind": "h2",
+          "text": "边界与疑问"
+        },
+        {
+          "kind": "p",
+          "text": "素材没有说明该信号何时正式生效、是否具有强制力，以及未参与机制的厂商会如何对待。标准能否真正约束抓取行为，仍取决于各家的执行程度。"
+        }
+      ],
+      "aiBrief": {
+        "background": "网站长期通过robots.txt管理爬虫权限，但AI训练偏好此前缺少统一表达方式。Anthropic的Kevin Kelley在IETF提出共享policy token信号，四家主要厂商表态采纳。",
+        "impact": "发布方可以用一次配置向多家AI公司表达训练偏好，降低逐家沟通的成本，也为AI抓取治理提供一个可复用的技术接口。",
+        "debate": "该信号目前依赖厂商自愿遵守，生效时间和约束力未明；未加入机制的厂商如何响应，以及它能否替代授权谈判，都还是开放问题。",
+        "terms": [
+          {
+            "term": "robots.txt",
+            "explanation": "网站根目录下的文本文件，用于告知爬虫哪些路径可以抓取，此次新信号将写入其中。"
+          },
+          {
+            "term": "policy token",
+            "explanation": "Anthropic方面提出的共享信号，放在robots.txt中表达AI训练偏好，供多家厂商统一读取。"
+          }
+        ]
+      },
+      "originalUrls": [
+        "https://www.theverge.com/tech/1023763/openai-google-microsoft-ai-scraping-standard-opt-out",
+        "https://openai.com/index/helping-websites-express-ai-training-preferences"
+      ]
+    },
+    {
+      "id": "2026-11-02-10",
+      "no": "10",
+      "category": "算力",
+      "title": "谷歌太空TPU卫星首次回传结果",
+      "why": "搭载TPU的卫星在轨运行Gemma模型并生成回应，为太空部署AI算力提供了首次实测。",
+      "readMinutes": 3,
+      "publishedAt": "02:21",
+      "entities": [
+        "deepmind"
+      ],
+      "aiPoints": [
+        "谷歌卫星上的TPU成功启动并运行模型",
+        "Gemma 4在轨按提示生成了一首俳句",
+        "属于Project Suncatcher实验计划的一部分"
+      ],
+      "sources": [
+        {
+          "name": "The Verge",
+          "monogram": "TV",
+          "time": "02:21",
+          "credibility": "高",
+          "note": "科技媒体，AI 产品与政策",
+          "url": "https://www.theverge.com/tech/1023528/google-project-suncatcher-ai-satellite-transmission"
+        },
+        {
+          "name": "TechCrunch",
+          "monogram": "TC",
+          "time": "01:00",
+          "credibility": "高",
+          "note": "科技媒体，AI 产业报道",
+          "url": "https://techcrunch.com/2026/10/30/googles-first-data-center-satellite-is-online-and-writing-poetry/"
+        }
+      ],
+      "body": [
+        {
+          "kind": "p",
+          "text": "谷歌一颗搭载AI芯片的卫星首次从太空生成并回传了回应。谷歌在博客中称，卫星上的张量处理单元（TPU）成功启动，板载的Gemma 4模型按提示写了一首关于身处太空的俳句。"
+        },
+        {
+          "kind": "h2",
+          "text": "这次做了什么"
+        },
+        {
+          "kind": "p",
+          "text": "据The Verge和TechCrunch报道，测试还包括其他太空主题的短诗和遥测类提示。这是谷歌Project Suncatcher实验计划的一部分，该计划的目标是最终把AI数据中心送上太空。"
+        },
+        {
+          "kind": "marker",
+          "text": "TPU"
+        },
+        {
+          "kind": "p",
+          "text": "TPU是谷歌自研的AI加速芯片，此次是它首次在轨运行模型。卫星在此前发射入轨，本次测试验证了芯片在太空环境中启动并完成推理的链路。"
+        },
+        {
+          "kind": "h2",
+          "text": "意义与限制"
+        },
+        {
+          "kind": "p",
+          "text": "一次俳句生成距离真正的太空数据中心还很远，素材也未披露算力规模、功耗和通信带宽等关键指标。它更像一次可行性验证，说明在轨运行模型这条路至少走得通。"
+        }
+      ],
+      "aiBrief": {
+        "background": "谷歌通过Project Suncatcher探索把AI数据中心部署到太空。此次卫星搭载TPU入轨，成功启动并运行Gemma 4模型，从太空回传了生成内容。",
+        "impact": "测试表明AI芯片可以在轨启动并完成推理，为太空算力部署提供了首个公开实证，也为未来在轨数据处理和星上计算提供了想象空间。",
+        "debate": "单次生成验证不等于工程可行，算力规模、散热、供电和回传带宽都未披露，距离商业化太空数据中心仍有相当距离。",
+        "terms": [
+          {
+            "term": "TPU",
+            "explanation": "谷歌自研的AI加速芯片，此次首次在轨启动并运行模型，是太空算力测试的核心硬件。"
+          },
+          {
+            "term": "Project Suncatcher",
+            "explanation": "谷歌的实验计划，目标是探索把AI数据中心部署到太空，本次卫星测试属于其中一环。"
+          }
+        ]
+      },
+      "originalUrls": [
+        "https://www.theverge.com/tech/1023528/google-project-suncatcher-ai-satellite-transmission",
+        "https://techcrunch.com/2026/10/30/googles-first-data-center-satellite-is-online-and-writing-poetry/"
+      ]
+    },
+    {
+      "id": "2026-11-02-11",
+      "no": "11",
+      "category": "算力",
+      "title": "天数智芯天垓300实测对标H200",
+      "why": "典型PD分离部署下单卡吞吐达H200的1.05倍，国产GPU竞争转向系统效率与软件适配。",
+      "readMinutes": 5,
+      "publishedAt": "17:02",
+      "entities": [
+        "nvidia"
+      ],
+      "aiPoints": [
+        "天垓300在典型PD分离部署下单卡吞吐为H200的1.05倍",
+        "GLM-5.3长上下文场景MoE吞吐达H200的1.15倍",
+        "软件栈引入Agent与Skills降低部署优化门槛"
+      ],
+      "sources": [
+        {
+          "name": "雷峰网",
+          "monogram": "LF",
+          "time": "17:02",
+          "credibility": "中",
+          "note": "中文科技媒体",
+          "url": "https://www.leiphone.com/category/chips/748GRHfg9VPRbp7x.html"
+        }
+      ],
+      "body": [
+        {
+          "kind": "p",
+          "text": "在天数智芯媒体开放日上，最新一代天垓300与英伟达H200进行了实机对比。天数智芯称，今年完成的一组第三方测试中，典型PD分离部署下，天垓300折算单卡端到端吞吐达到H200的1.05倍。"
+        },
+        {
+          "kind": "h2",
+          "text": "实测数据"
+        },
+        {
+          "kind": "p",
+          "text": "测试覆盖四大主流模型、三类场景。按天数智芯性能实验室数据，GLM-5.3的64K长上下文场景下，保障同等用户体验时，天垓300的MoE吞吐为H200的1.15倍；8K至128K长上下文的Agent场景中，首字延迟较H200降低约10%至30%。"
+        },
+        {
+          "kind": "marker",
+          "text": "PD分离"
+        },
+        {
+          "kind": "p",
+          "text": "天垓300基于天枢架构，单卡显存144GB，并针对Attention、MoE等环节做了优化。天数智芯还展示了AFD分离方案，由天垓300承担Prefill全流程和Decode中的Attention，合作厂商XPU承担FFN专家网络计算，其给出的对比结果显示Decode推理延迟降低60%。"
+        },
+        {
+          "kind": "h2",
+          "text": "从性能到交付"
+        },
+        {
+          "kind": "p",
+          "text": "天数智芯称已服务380多个客户、覆盖30多个行业，客户应用迁移通常在小时以内，性能优化可能需要数天至一周。其软件栈引入Agent与Skills，在一个完整模型服务部署案例中，从环境准备到正常提供服务由约一小时缩短至约20分钟，人工操作减少为两次目标输入。"
+        },
+        {
+          "kind": "p",
+          "text": "端侧方面，彤央TY1200提供300 TOPS的INT8稠密算力，天数智芯称在Qwen3.8-27B等模型中性能达到Thor T5000的1.2倍。从性能接近到客户持续采购，系统效率、软件适配和稳定交付仍是关键变量。"
+        }
+      ],
+      "aiBrief": {
+        "background": "国产GPU长期以峰值算力为关注点，实际采购更看有效Token产出。天数智芯在开放日披露天垓300与H200的第三方对比测试，并展示异构分工与软件栈进展。",
+        "impact": "在特定高端推理负载中，国产通用GPU已具备与H200直接竞争的性能基础；竞争重心转向系统效率、软件适配和交付能力，Agent化工具可能缩短新模型适配周期。",
+        "debate": "1.05倍等数据来自特定模型与部署条件，不能等同于普遍领先；从性能接近到客户扩容之间仍隔着稳定性与成本，第三方测试的完整细节也未公开。",
+        "terms": [
+          {
+            "term": "PD分离",
+            "explanation": "把推理的Prefill和Decode两个阶段拆到不同实例上部署，以分别匹配计算与访存需求，是此次对比的测试条件。"
+          },
+          {
+            "term": "MoE",
+            "explanation": "混合专家模型结构，每次只激活部分专家以控制计算量，但带来小规模矩阵计算和专家分配等新问题。"
+          }
+        ]
+      },
+      "originalUrls": [
+        "https://www.leiphone.com/category/chips/748GRHfg9VPRbp7x.html"
+      ]
+    },
+    {
+      "id": "2026-11-02-12",
+      "no": "12",
+      "category": "算力",
+      "title": "世界模型首次指导设计芯片",
+      "why": "超大核NPU达700TOPS且99%算力可用，展示AI参与芯片设计本身的新范式。",
+      "readMinutes": 3,
+      "publishedAt": "13:11",
+      "entities": [],
+      "aiPoints": [
+        "世界模型首次用于指导芯片设计",
+        "超大核NPU标称700TOPS",
+        "宣称99%算力可用"
+      ],
+      "sources": [
+        {
+          "name": "量子位",
+          "monogram": "QB",
+          "time": "13:11",
+          "credibility": "中",
+          "note": "中文 AI 媒体",
+          "url": "https://www.qbitai.com/2026/10/506866.html"
+        }
+      ],
+      "body": [
+        {
+          "kind": "p",
+          "text": "有报道称，世界模型首次被用于指导芯片设计，产出的超大核NPU达到700TOPS，并宣称99%算力可用。这条消息的重点不在单颗芯片的参数，而在于设计流程中引入了AI。"
+        },
+        {
+          "kind": "h2",
+          "text": "两个看点"
+        },
+        {
+          "kind": "p",
+          "text": "一是设计方式：由世界模型参与芯片设计，属于AI进入硬件研发环节的尝试；二是能效表述：99%算力可用指向实际利用率，而非只看峰值数字。素材对具体设计环节和验证方式着墨很少。"
+        },
+        {
+          "kind": "marker",
+          "text": "世界模型"
+        },
+        {
+          "kind": "p",
+          "text": "世界模型通常指对环境中状态与变化进行建模的模型。把它用于芯片设计，意味着让模型参与方案探索与评估，但素材未说明它在流程中承担哪一部分工作。"
+        },
+        {
+          "kind": "h2",
+          "text": "信息仍有限"
+        },
+        {
+          "kind": "p",
+          "text": "目前公开的只有700TOPS和99%算力可用两个数字，缺少测试条件、模型规模和落地场景。AI参与芯片设计能否稳定复现，还需要更多细节支撑。"
+        }
+      ],
+      "aiBrief": {
+        "background": "AI此前多用于芯片设计中的局部环节，如布局布线辅助。此次报道称世界模型首次指导芯片设计，并给出超大核NPU的算力与可用率数据。",
+        "impact": "若方法可复现，AI参与芯片设计有望缩短方案探索周期，99%算力可用的表述也把关注点从峰值算力引向实际利用率。",
+        "debate": "素材仅提供两个数字，未说明世界模型的具体作用、测试条件和验证方式，99%算力可用的口径也不清楚，结论仍需更多公开信息。",
+        "terms": [
+          {
+            "term": "世界模型",
+            "explanation": "对环境状态及其变化进行建模的模型，此次被报道用于指导芯片设计流程。"
+          },
+          {
+            "term": "NPU",
+            "explanation": "面向神经网络计算的处理器，报道中的超大核NPU标称算力为700TOPS。"
+          }
+        ]
+      },
+      "originalUrls": [
+        "https://www.qbitai.com/2026/10/506866.html"
+      ]
+    },
+    {
+      "id": "2026-11-02-13",
+      "no": "13",
+      "category": "算力",
+      "title": "英伟达或为Nscale数据中心担保",
+      "why": "芯片厂商为AI数据中心贷款背书，反映AI基建融资模式与投资风险的微妙变化。",
+      "readMinutes": 3,
+      "publishedAt": "09:20",
+      "entities": [
+        "nvidia"
+      ],
+      "aiPoints": [
+        "英伟达正评估为Nscale西弗吉尼亚AI数据中心贷款做共同签署方",
+        "芯片供应商为下游基建融资背书，属少见安排",
+        "背景是投资者对AI支出趋于紧张"
+      ],
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "monogram": "TC",
+          "time": "09:20",
+          "credibility": "高",
+          "note": "科技媒体，AI 产业报道",
+          "url": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/"
+        }
+      ],
+      "body": [
+        {
+          "kind": "p",
+          "text": "据TechCrunch报道，英伟达正在权衡为Nscale位于西弗吉尼亚州的AI数据中心项目充当贷款共同签署方。报道把这一动向放在投资者对AI支出感到紧张的背景下：当资金方犹豫时，由卖芯片的公司出面为贷款背书，能起到稳定信心的作用。"
+        },
+        {
+          "kind": "h2",
+          "text": "为什么由芯片厂出面"
+        },
+        {
+          "kind": "p",
+          "text": "数据中心是重资产投入，建设周期长、回报靠后续算力出租与云服务消化。若芯片厂商参与担保，等于把自身与下游算力基建的成败绑得更紧，也让融资方更容易接受项目风险。"
+        },
+        {
+          "kind": "marker",
+          "text": "共同签署"
+        },
+        {
+          "kind": "p",
+          "text": "目前公开信息只到“权衡”“评估”的程度，是否最终签署、担保规模与条款均未披露。报道也未给出项目投资额与贷款金额，因此不宜据此推断英伟达的整体财务承诺。"
+        },
+        {
+          "kind": "h2",
+          "text": "需要观察什么"
+        },
+        {
+          "kind": "p",
+          "text": "接下来值得关注两点：一是这类担保是否会成为芯片厂商参与AI基建的常规做法；二是若AI需求预期回落，担保方将承担怎样的敞口。这两点决定了该模式是短期融资技巧，还是行业结构性变化。"
+        }
+      ],
+      "aiBrief": {
+        "background": "Nscale是建设AI数据中心的企业，其西弗吉尼亚项目需要大额贷款支持。TechCrunch报道称，英伟达正考虑以共同签署方身份为这笔贷款背书，报道将此举与投资者对AI资本开支的紧张情绪联系起来。",
+        "impact": "若成行，芯片厂商将从设备供应方延伸为基建融资的信用支持方，降低项目融资难度，但也把自身资产负债表与数据中心运营风险挂钩，可能影响外界对AI投资链条风险传导的判断。",
+        "debate": "报道用词是“权衡”，尚无签约确认，担保金额、期限与触发条件均未知。争议在于：这究竟是帮助项目落地的正常商业安排，还是AI基建过热下风险向芯片厂商集中的信号。",
+        "terms": [
+          {
+            "term": "共同签署",
+            "explanation": "指第三方与借款人共同对贷款承担责任，借款人违约时担保方需代为偿还，从而提升贷款信用。"
+          },
+          {
+            "term": "AI数据中心",
+            "explanation": "为训练和运行AI模型而建设的高功耗机房设施，通常需要大量GPU、电力与冷却资源。"
+          }
+        ]
+      },
+      "originalUrls": [
+        "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/"
+      ]
+    },
+    {
+      "id": "2026-11-02-14",
+      "no": "14",
+      "category": "算力",
+      "title": "初创公司尝试流水线造AI数据中心",
+      "why": "Runware建厂预制AI数据中心，若规模化交付成立将改变算力基建的成本结构。",
+      "readMinutes": 3,
+      "publishedAt": "21:00",
+      "entities": [],
+      "aiPoints": [
+        "Runware建工厂，用装配线生产预制化AI数据中心",
+        "报道称目标包括48小时上线",
+        "真正考验是能否按此规模交付"
+      ],
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "monogram": "TC",
+          "time": "21:00",
+          "credibility": "高",
+          "note": "科技媒体，AI 产业报道",
+          "url": "https://techcrunch.com/2026/10/30/can-ai-data-centers-be-mass-produced-like-cars-and-online-in-48-hours-this-startup-aims-to-find-out/"
+        }
+      ],
+      "body": [
+        {
+          "kind": "p",
+          "text": "TechCrunch报道，初创公司Runware正在建设一座工厂，用装配线方式生产预制化的AI数据中心。报道提出的问题是：AI数据中心能否像汽车一样被批量制造。标题还提到“48小时上线”的说法，但素材未说明这一时间指哪个环节。"
+        },
+        {
+          "kind": "h2",
+          "text": "把机房变成产品"
+        },
+        {
+          "kind": "p",
+          "text": "预制化的思路是把供电、冷却、机柜等模块在工厂内完成组装，再运到现场拼接，以减少现场施工时间与不确定性。对算力需求方而言，这意味着交付周期可能缩短，成本结构也可能随之变化。"
+        },
+        {
+          "kind": "marker",
+          "text": "预制化"
+        },
+        {
+          "kind": "p",
+          "text": "不过报道明确指出，真正的考验是Runware能否在这种规模下完成交付。工厂产能、模块运输、现场电力接入与并网审批，都是流水线模式难以一并解决的问题，素材未提供具体产能或订单数据。"
+        },
+        {
+          "kind": "h2",
+          "text": "为何值得关注"
+        },
+        {
+          "kind": "p",
+          "text": "当前AI算力扩张的瓶颈之一在于建设速度与电力配套。若预制路线被验证可行，数据中心供给的节奏可能加快；若交付不达预期，则说明瓶颈不在制造环节，而在选址、电网与审批。"
+        }
+      ],
+      "aiBrief": {
+        "background": "AI算力需求推动数据中心加快建设，但传统现场施工周期长、受制于电力与审批。Runware选择建厂生产预制化AI数据中心，试图用制造业的流水线方式压缩交付时间。",
+        "impact": "若模式成立，数据中心交付可能更快、更标准化，成本结构从现场工程转向工厂制造，利好急需算力的客户；同时也会把竞争焦点转移到供应链与产能上。",
+        "debate": "报道本身把“能否按此规模交付”列为关键疑问。预制模块能否适配各地电网条件、运输与现场安装是否真能省时，以及48小时上线的具体含义，素材均未给出答案。",
+        "terms": [
+          {
+            "term": "预制化",
+            "explanation": "在工厂内提前完成设备模块的制造与组装，再运至现场拼接安装，以减少现场施工时间。"
+          },
+          {
+            "term": "算力基建",
+            "explanation": "支撑AI计算的基础设施，包括数据中心机房、供电、冷却与网络等，是模型训练和推理的物理载体。"
+          }
+        ]
+      },
+      "originalUrls": [
+        "https://techcrunch.com/2026/10/30/can-ai-data-centers-be-mass-produced-like-cars-and-online-in-48-hours-this-startup-aims-to-find-out/"
+      ]
+    },
+    {
+      "id": "2026-11-02-15",
+      "no": "15",
+      "category": "算力",
+      "title": "OpenAI拟将数据中心改称算力园区",
+      "why": "以更名改善数据中心公众形象，折射AI基建面临的社区阻力与舆论压力。",
+      "readMinutes": 3,
+      "publishedAt": "05:55",
+      "entities": [
+        "openai"
+      ],
+      "aiPoints": [
+        "OpenAI考虑把数据中心改称“AI算力园区”",
+        "报道称数据中心本身极不受欢迎",
+        "更名能否缓解社区阻力尚不确定"
+      ],
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "monogram": "TC",
+          "time": "05:55",
+          "credibility": "高",
+          "note": "科技媒体，AI 产业报道",
+          "url": "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses/"
+        }
+      ],
+      "body": [
+        {
+          "kind": "p",
+          "text": "TechCrunch报道，OpenAI可能会把旗下的数据中心重新命名为“AI算力园区”。报道给出的理由很直接：数据中心在公众中极不受欢迎，那么换一个叫法会怎样。"
+        },
+        {
+          "kind": "h2",
+          "text": "名字背后的舆论压力"
+        },
+        {
+          "kind": "p",
+          "text": "围绕数据中心的反对意见通常集中在用电、用水、噪音与土地占用等问题上。当这些设施以“数据中心”之名进入社区讨论时，往往很快引发争议；改名被视为一种降低抵触情绪的公关尝试。"
+        },
+        {
+          "kind": "marker",
+          "text": "品牌重塑"
+        },
+        {
+          "kind": "p",
+          "text": "但报道只提到“可能”改名，未说明是否已确定、何时实施，也未给出新名称的正式定义。素材中没有OpenAI的回应或具体计划细节，因此不宜把更名当作既定事实。"
+        },
+        {
+          "kind": "h2",
+          "text": "更名能解决什么"
+        },
+        {
+          "kind": "p",
+          "text": "名称变化不会改变设施的能耗与排放，也难以替代与社区的实质沟通。它更像是对舆论环境的回应：AI基建的公众接受度，正在成为与选址、电力同等重要的约束条件。"
+        }
+      ],
+      "aiBrief": {
+        "background": "AI数据中心在美国多地遭遇社区反对，焦点包括电力消耗、水资源使用与环境影响。TechCrunch报道称，OpenAI可能把数据中心改称“AI算力园区”，以改善公众观感。",
+        "impact": "若更名落地，反映AI公司开始把社区关系纳入基建策略，公关与选址、电力并列成为项目推进变量。但名称调整对实际能耗与排放无直接影响，效果取决于后续沟通与配套措施。",
+        "debate": "报道用“可能”表述，未确认实施时间与范围，也没有OpenAI官方说法。争议在于：更名是诚实的沟通调整，还是回避实质问题的措辞包装，公众与监管方未必买账。",
+        "terms": [
+          {
+            "term": "品牌重塑",
+            "explanation": "通过更改名称、表述与传播方式改变外界对某事物的印象，但不一定改变其实际运作方式。"
+          },
+          {
+            "term": "社区阻力",
+            "explanation": "指数据中心选址建设时，周边居民因用电、用水、噪音与环境影响而产生的反对与抵制。"
+          }
+        ]
+      },
+      "originalUrls": [
+        "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses/"
+      ]
+    },
+    {
+      "id": "2026-11-02-16",
+      "no": "16",
+      "category": "政策",
+      "title": "法院允许NAACP诉xAI污染案继续",
+      "why": "诉讼指控xAI数据中心违反清洁空气法，AI基建的环境合规争议进入司法程序。",
+      "readMinutes": 3,
+      "publishedAt": "05:17",
+      "entities": [
+        "regulation"
+      ],
+      "aiPoints": [
+        "法官允许NAACP针对xAI数据中心污染的诉讼继续推进",
+        "诉讼指控其违反《清洁空气法》",
+        "报道称xAI为SpaceX旗下AI公司"
+      ],
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "monogram": "TC",
+          "time": "05:17",
+          "credibility": "高",
+          "note": "科技媒体，AI 产业报道",
+          "url": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/"
+        }
+      ],
+      "body": [
+        {
+          "kind": "p",
+          "text": "TechCrunch报道，一名法官允许全国有色人种协进会（NAACP）就xAI数据中心污染提起的诉讼继续推进。报道称，该诉讼指控这家由SpaceX拥有的AI公司违反《清洁空气法》。"
+        },
+        {
+          "kind": "h2",
+          "text": "争议进入司法程序"
+        },
+        {
+          "kind": "p",
+          "text": "法官放行意味着案件不会在早期阶段被驳回，原告可以在法庭上进一步陈述主张。对AI基建而言，这是一次把环境合规问题交由法院裁断的案例，而非停留在社区抗议或舆论层面。"
+        },
+        {
+          "kind": "marker",
+          "text": "清洁空气法"
+        },
+        {
+          "kind": "p",
+          "text": "素材未披露诉讼的具体指控细节、涉事数据中心位置，以及xAI的回应。报道只确认了诉讼主体、指控方向与程序进展，因此案件最终走向仍不确定。"
+        },
+        {
+          "kind": "h2",
+          "text": "对AI基建的含义"
+        },
+        {
+          "kind": "p",
+          "text": "数据中心为供电常配套建设发电设施，其排放与许可问题正受到更多审视。若此类诉讼增多，项目方在选址与设备选型时需更早评估合规成本，审批与建设周期也可能被拉长。"
+        }
+      ],
+      "aiBrief": {
+        "background": "AI数据中心用电量大，部分项目自建发电设施以满足算力需求，由此带来空气排放问题。NAACP据此起诉xAI，指控其违反《清洁空气法》，法官近日允许案件继续审理。",
+        "impact": "案件推进意味着AI基建的环境合规将更多接受司法审查，项目方面临更高的法律与合规成本。对行业而言，排放许可与社区健康议题可能成为选址和建设的新约束。",
+        "debate": "目前公开信息有限：具体排放事实、许可情况与xAI的抗辩均未披露。争议核心在于数据中心配套发电的排放是否越界，以及AI基建扩张与环境监管之间如何平衡。",
+        "terms": [
+          {
+            "term": "清洁空气法",
+            "explanation": "美国联邦环境法律，规定空气污染物排放标准与许可要求，违反者可能面临诉讼与处罚。"
+          },
+          {
+            "term": "环境合规",
+            "explanation": "企业运营需满足排放、许可、环评等环境法规要求，不合规可能引发诉讼、罚款或项目停工。"
+          }
+        ]
+      },
+      "originalUrls": [
+        "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/"
+      ]
+    },
+    {
+      "id": "2026-11-02-17",
+      "no": "17",
+      "category": "政策",
+      "title": "缅因州数据中心争议影响参议院选情",
+      "why": "AI数据中心选址与用电问题成为地方政治议题，监管压力从联邦扩散到州级。",
+      "readMinutes": 4,
+      "publishedAt": "19:00",
+      "entities": [
+        "regulation"
+      ],
+      "aiPoints": [
+        "缅因州数据中心争议成为中期选举热门议题",
+        "报道称其将影响参议院控制权归属",
+        "辩论现场有观众就AI数据中心问题打断发言"
+      ],
+      "sources": [
+        {
+          "name": "The Verge",
+          "monogram": "TV",
+          "time": "19:00",
+          "credibility": "高",
+          "note": "科技媒体，AI 产品与政策",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1021080/maine-senate-race-susan-collins-ai-data-centers"
+        }
+      ],
+      "body": [
+        {
+          "kind": "p",
+          "text": "The Verge报道，缅因州围绕数据中心的争议已成为当地最不稳定的竞选议题之一，并可能影响参议院控制权的归属。报道描述，在中期选举最后一场辩论中，共和党参议员苏珊·柯林斯发言时被一名观众打断，该观众喊出对AI数据中心破坏气候、污染水源的担忧。"
+        },
+        {
+          "kind": "h2",
+          "text": "从选址问题变成选票问题"
+        },
+        {
+          "kind": "p",
+          "text": "报道称，柯林斯淡化了这一插曲，并把该男子与她的民主党挑战者特洛伊·杰克逊联系起来。但报道同时指出，这种恐惧情绪并未因此消散。距离投票仅剩数日，数据中心的快速扩张已从地方规划议题上升为州级政治议题。"
+        },
+        {
+          "kind": "marker",
+          "text": "中期选举"
+        },
+        {
+          "kind": "p",
+          "text": "报道提到，缅因州今年4月因相关立法动作受到全国关注，但素材中该句被截断，具体内容不详。可以确认的是，用电、环境与社区影响正被候选人拿来作为竞选攻防的具体抓手。"
+        },
+        {
+          "kind": "h2",
+          "text": "监管压力的下沉"
+        },
+        {
+          "kind": "p",
+          "text": "此前围绕AI基建的讨论多集中在联邦层面，而这一案例显示，数据中心选址与资源消耗已进入州级选举语言。对项目方而言，地方政治周期可能直接影响审批节奏与社区谈判空间。"
+        }
+      ],
+      "aiBrief": {
+        "background": "AI数据中心扩张带来用电与水资源压力，在多地引发社区反对。缅因州将数据中心争议带入参议院选战，报道称该议题可能影响参议院控制权，辩论现场也出现观众抗议。",
+        "impact": "AI基建的监管压力从联邦扩散到州级与选举层面，项目审批可能更受地方政治周期影响。企业需要更早介入社区沟通，否则选址与建设计划可能在选举季被放大为政治议题。",
+        "debate": "报道以竞选现场与选民情绪为主线，未提供数据中心具体能耗、用水或污染数据。争议在于：地方反对是合理的环境关切，还是被竞选话语放大的情绪，双方各执一词。",
+        "terms": [
+          {
+            "term": "中期选举",
+            "explanation": "美国在总统任期中间举行的国会选举，参议院部分席位改选，结果可能改变国会控制权。"
+          },
+          {
+            "term": "数据中心选址",
+            "explanation": "决定数据中心建在何处的过程，涉及电力供应、水资源、土地与社区接受度等多重因素。"
+          }
+        ]
+      },
+      "originalUrls": [
+        "https://www.theverge.com/ai-artificial-intelligence/1021080/maine-senate-race-susan-collins-ai-data-centers"
+      ]
+    },
+    {
+      "id": "2026-11-02-18",
+      "no": "18",
+      "category": "Agent",
+      "title": "AI Agent为活体小鼠脑内注射药物",
+      "why": "Agent自主选择基因疗法并完成注射，展示AI在实验室自动化中的实际执行能力。",
+      "readMinutes": 3,
+      "publishedAt": "18:00",
+      "entities": [],
+      "aiPoints": [
+        "一家生物科技初创公司让AI Agent自主选择基因疗法",
+        "Agent成功向活体小鼠脑内注射该疗法",
+        "报道称这展示了研究实验室自动化的前景"
+      ],
+      "sources": [
+        {
+          "name": "Wired",
+          "monogram": "WI",
+          "time": "18:00",
+          "credibility": "高",
+          "note": "科技媒体，AI 与社会",
+          "url": "https://www.wired.com/story/an-ai-agent-did-brain-surgery-on-live-mouse/"
+        }
+      ],
+      "body": [
+        {
+          "kind": "p",
+          "text": "Wired报道，一家生物科技初创公司让一个AI Agent自主选择了一种基因疗法，并成功完成了向活体小鼠脑内的注射。报道称，这为研究实验室的未来提供了一个令人警醒的预览。"
+        },
+        {
+          "kind": "h2",
+          "text": "Agent做了什么"
+        },
+        {
+          "kind": "p",
+          "text": "根据报道，Agent承担的是选择治疗方案并执行注射的环节，而非仅提供建议。这意味着AI系统与实验设备、动物操作流程发生了直接连接，从“给出方案”走向“动手执行”。"
+        },
+        {
+          "kind": "marker",
+          "text": "基因疗法"
+        },
+        {
+          "kind": "p",
+          "text": "素材未披露该初创公司名称、所用模型、注射的具体脑区、小鼠数量与实验结果，也未说明是否有人员监督或伦理审批安排。因此无法评估该操作的可重复性与安全边界。"
+        },
+        {
+          "kind": "h2",
+          "text": "实验室自动化的边界"
+        },
+        {
+          "kind": "p",
+          "text": "活体动物实验对精度与责任归属要求很高。若Agent可以自主选择并执行操作，随之而来的是谁对结果负责、如何记录决策过程、以及哪些环节必须保留人工确认等问题，这些在素材中均未涉及。"
+        }
+      ],
+      "aiBrief": {
+        "background": "AI Agent正从对话工具扩展到可调用外部工具执行任务的系统。Wired报道，一家生物科技初创公司让Agent自主选择基因疗法，并向活体小鼠脑内完成注射，展示了实验室自动化的一个具体案例。",
+        "impact": "若此类操作可被规范复现，AI有望承担部分实验设计与执行工作，提升研究通量。但同时把伦理审查、操作安全与责任归属问题推到前台，监管与实验室规范需要同步跟进。",
+        "debate": "报道未提供公司名称、模型细节、实验规模与监督机制，外界难以判断该成果的可靠程度。争议在于：让Agent自主选择并执行活体注射，风险是否已被充分评估，人工确认环节应保留到何种程度。",
+        "terms": [
+          {
+            "term": "基因疗法",
+            "explanation": "通过向细胞引入遗传物质来治疗疾病的方法，递送位置与剂量对安全性和效果影响很大。"
+          },
+          {
+            "term": "AI Agent",
+            "explanation": "能自主规划步骤并调用工具执行任务的AI系统，相比单次问答更强调连续行动与目标完成。"
+          }
+        ]
+      },
+      "originalUrls": [
+        "https://www.wired.com/story/an-ai-agent-did-brain-surgery-on-live-mouse/"
+      ]
+    },
+    {
+      "id": "2026-11-02-19",
+      "no": "19",
+      "category": "具身",
+      "title": "杭州落地具身仿真数采中心",
+      "why": "以环境配置数乘并行算力替代人力采集，试图一个月补齐百万小时具身数据缺口。",
+      "readMinutes": 4,
+      "publishedAt": "19:08",
+      "entities": [
+        "embodied"
+      ],
+      "aiPoints": [
+        "影溯在杭州落地全国首个以仿真为主的具身数采中心，目标月产百万小时级数据。",
+        "行业缺的不只是数据量，更是数据里的变化，传统训练场多样性不足。",
+        "通过真实采集定锚、仿真生成扩量，把场景资产变成可复用原料。"
+      ],
+      "sources": [
+        {
+          "name": "雷峰网",
+          "monogram": "LF",
+          "time": "19:08",
+          "credibility": "中",
+          "note": "中文科技媒体",
+          "url": "https://www.leiphone.com/category/academic/xPVWQgBN3Foj7fo5.html"
+        }
+      ],
+      "body": [
+        {
+          "kind": "p",
+          "text": "具身智能行业长期受困于数据缺口：训练可用模型需千万小时多模态交互数据，而现实仅有百万小时，剔除低质部分后更少。过去两年主流办法是建训练场、加采集人手，但大量训练场集中在叠衣服、分拣搬运等易展示任务，复杂长程任务挖掘不足。"
+        },
+        {
+          "kind": "h2",
+          "text": "产能公式从人×小时转向环境配置数×并行算力"
+        },
+        {
+          "kind": "p",
+          "text": "影溯在杭州落地全国首个以仿真为主的具身智能数采中心，目标将产能拉升至月产百万小时级。其核心是把三维场景重建与生成式模型、仿真能力结合，让空间布局、物体位置、遮挡关系可通过生成、编辑与组合扩展，不必为每种变化重搭实体场地。基于少量真机或遥操示范种子，系统在数百个并行环境中自动批量合成对齐了RGB、深度、分割、6D位姿与动作指令的闭环轨迹。"
+        },
+        {
+          "kind": "marker",
+          "text": "Sim-to-Real"
+        },
+        {
+          "kind": "p",
+          "text": "仿真长期面临环境不够真的质疑。影溯的解法是：几何、外观、空间关系交给真实采集锚定，扩展和重复验证交给仿真。通过与禾赛Kosmo合作，普通室内100平方米约15分钟完成扫描，3DGS重建达毫米级；影溯再通过3D升维与世界模型把静态壳体拆解为可交互资产。其世界模拟器Topos Pro支持单图、多图、视频、LiDAR等多源输入，自动完成物体分割、几何对齐与物理属性赋予。"
+        },
+        {
+          "kind": "h2",
+          "text": "一次采集长出可复用的条件空间"
+        },
+        {
+          "kind": "p",
+          "text": "两条管线分工明确：真实场景重建负责像不像，生成能力负责够不够多。一次采集的素材不再只用一次，而是被重组成无数种布局、遮挡和物体组合，场景资产从消耗品变成可复用的原料。对算法团队而言，这是扩展训练分布、复现失败条件的空间；对机器人本体厂商，则是一套可反复配置和验证的环境基础。"
+        }
+      ],
+      "aiBrief": {
+        "background": "具身智能训练需要千万小时级多模态交互数据，但行业积累仅百万小时且多样性不足。传统训练场靠增加场地和采集人手扩容，每增加一种空间变化就要重走一遍采集流程，成本线性叠加。",
+        "impact": "仿真数采中心把产能公式从人×小时变为环境配置数×并行算力，有望短期跨越全行业两年存量。数据生产与研发贴得更紧，模型在哪类条件下出问题就针对性扩展环境，缩短验证周期。",
+        "debate": "仿真环境与真实世界的差距仍是核心争议。影溯用真实采集锚定几何与外观，但物理交互的保真度、生成资产的可用性仍需验证。月产百万小时是目标产能，实际有效数据比例尚不明确。",
+        "terms": [
+          {
+            "term": "Sim-to-Real",
+            "explanation": "指在仿真环境中训练模型后迁移到真实世界部署的技术路径，核心挑战是缩小仿真与现实的差距。"
+          },
+          {
+            "term": "3DGS",
+            "explanation": "3D高斯泼溅，一种三维重建方法，用高斯点云表示场景，可快速生成高质量可渲染的三维资产。"
+          }
+        ]
+      },
+      "originalUrls": [
+        "https://www.leiphone.com/category/academic/xPVWQgBN3Foj7fo5.html"
+      ]
+    },
+    {
+      "id": "2026-11-02-20",
+      "no": "20",
+      "category": "具身",
+      "title": "智元双模型登顶多榜",
+      "why": "双模型在多榜单领先，并披露上半年营收近20亿元，具身智能商业化进展受关注。",
+      "readMinutes": 3,
+      "publishedAt": "20:58",
+      "entities": [
+        "embodied"
+      ],
+      "aiPoints": [
+        "智元双模型在多个榜单登顶，展示具身智能模型能力进展。",
+        "素材披露上半年营收近20亿元，商业化规模受关注。",
+        "榜单表现与营收数据共同反映具身智能落地节奏。"
+      ],
+      "sources": [
+        {
+          "name": "量子位",
+          "monogram": "QB",
+          "time": "20:58",
+          "credibility": "中",
+          "note": "中文 AI 媒体",
+          "url": "https://www.qbitai.com/2026/10/506819.html"
+        }
+      ],
+      "body": [
+        {
+          "kind": "p",
+          "text": "智元机器人旗下双模型在多个榜单登顶，引发具身智能领域关注。素材显示，其双模型在多项评测中领先，同时公司披露上半年营收近20亿元，商业化进展成为讨论焦点。"
+        },
+        {
+          "kind": "h2",
+          "text": "双模型榜单领先"
+        },
+        {
+          "kind": "p",
+          "text": "据量子位报道，智元这波双模型杀穿多榜榜单。榜单排名通常反映模型在特定任务上的能力，但具体评测维度、对比对象和分数细节在素材中未展开。对于具身智能而言，榜单表现能否转化为真实场景中的稳定操作，仍是行业共同面对的问题。"
+        },
+        {
+          "kind": "marker",
+          "text": "具身智能"
+        },
+        {
+          "kind": "p",
+          "text": "具身智能强调模型与物理身体的结合，榜单成绩往往集中在感知、规划或操作等单项能力。智元双模型同时登顶多榜，说明其在多个能力维度上有布局，但榜单与商业化落地之间仍有距离。"
+        },
+        {
+          "kind": "h2",
+          "text": "营收数据受关注"
+        },
+        {
+          "kind": "p",
+          "text": "素材提到智元上半年营收近20亿元。这一数字在具身智能创业公司中较为突出，但营收构成、客户结构和毛利率等关键信息未披露。行业关注点在于，具身智能产品是否已进入可规模复制的交付阶段，而非停留在示范项目。"
+        }
+      ],
+      "aiBrief": {
+        "background": "具身智能赛道近年热度上升，模型能力评测和商业化营收成为衡量公司进展的两条主线。智元作为国内代表性公司，其榜单表现和营收数据受到行业关注。",
+        "impact": "双模型登顶多榜有助于提升技术品牌形象，近20亿元上半年营收则为具身智能商业化提供参照。若营收来自可持续的产品交付而非项目制收入，将对行业信心形成支撑。",
+        "debate": "榜单排名与真实场景能力之间的相关性常受质疑，评测维度和对比基线不透明会削弱说服力。营收数字缺少构成披露，市场难以判断其质量和可持续性。",
+        "terms": [
+          {
+            "term": "具身智能",
+            "explanation": "指拥有物理身体、能与环境交互的智能系统，强调感知、决策与行动的闭环，区别于纯软件模型。"
+          },
+          {
+            "term": "榜单",
+            "explanation": "指针对模型特定能力的公开评测排名，通常覆盖感知、规划、操作等任务，但评测维度和基线差异会影响可比性。"
+          }
+        ]
+      },
+      "originalUrls": [
+        "https://www.qbitai.com/2026/10/506819.html"
+      ]
+    },
+    {
+      "id": "2026-11-02-21",
+      "no": "21",
+      "category": "具身",
+      "title": "便利店机器人售货实测折戟",
+      "why": "实验室锤炼上万次仍在货架前摔瓶，暴露具身智能在真实零售场景的落地差距。",
+      "readMinutes": 3,
+      "publishedAt": "15:50",
+      "entities": [
+        "embodied"
+      ],
+      "aiPoints": [
+        "老牌便利店机器人售货实测失败，货架前摔瓶。",
+        "实验室锤炼上万次仍未覆盖真实场景变化。",
+        "暴露具身智能从演示到零售落地的差距。"
+      ],
+      "sources": [
+        {
+          "name": "量子位",
+          "monogram": "QB",
+          "time": "15:50",
+          "credibility": "中",
+          "note": "中文 AI 媒体",
+          "url": "https://www.qbitai.com/2026/11/506990.html"
+        }
+      ],
+      "body": [
+        {
+          "kind": "p",
+          "text": "据量子位报道，老牌便利店机器人售货实测折戟：在实验室锤炼上万次后，机器人仍在货架前摔瓶子。报道以“这事还是想得太简单了”概括这一结果，指向具身智能在真实零售场景中的落地差距。"
+        },
+        {
+          "kind": "h2",
+          "text": "实验室与货架的距离"
+        },
+        {
+          "kind": "p",
+          "text": "实验室环境通常固定货架位置、物体摆放和光照条件，机器人可以反复练习同一任务。真实便利店中，货架方向、商品排列、遮挡关系和伸手路径都会变化，练过的任务能重复做对，没练过的条件则容易失败。摔瓶正是这类分布外场景的典型表现。"
+        },
+        {
+          "kind": "marker",
+          "text": "分布外场景"
+        },
+        {
+          "kind": "p",
+          "text": "具身智能模型的能力高度依赖训练数据覆盖的条件空间。实验室上万次锤炼若集中在有限场景，数据小时数在涨，但模型见过的空间布局未必增加。行业缺的不只是数据量，还有数据里的变化。"
+        },
+        {
+          "kind": "h2",
+          "text": "零售落地的现实门槛"
+        },
+        {
+          "kind": "p",
+          "text": "便利店售货涉及抓取、放置、识别和异常处理，对稳定性和成功率要求高。一次摔瓶不仅造成商品损耗，也影响门店运营。此次实测说明，具身智能从演示视频走向日常零售，仍需在场景多样性和鲁棒性上补课。"
+        }
+      ],
+      "aiBrief": {
+        "background": "具身智能公司常以实验室演示展示机器人操作能力，但真实零售场景条件多变，货架布局、商品组合和遮挡关系难以穷尽。便利店售货成为检验落地能力的典型场景。",
+        "impact": "实测失败提醒行业，实验室成功率不等于场景可用性。零售客户对损耗和稳定性敏感，具身智能若无法覆盖真实变化，商业化推进将受制约，也会影响资本对落地节奏的预期。",
+        "debate": "单次实测失败能否代表整体水平存在争议，测试条件和任务难度未详细披露。另一种观点认为，摔瓶恰恰暴露了数据多样性不足这一行业共性问题，而非单一公司能力问题。",
+        "terms": [
+          {
+            "term": "分布外场景",
+            "explanation": "指训练数据未覆盖或覆盖不足的真实条件，模型在这些场景中性能容易下降，是具身智能落地的关键挑战。"
+          },
+          {
+            "term": "鲁棒性",
+            "explanation": "指系统在环境变化、噪声或异常条件下维持稳定性能的能力，对机器人抓取和放置任务尤为重要。"
+          }
+        ]
+      },
+      "originalUrls": [
+        "https://www.qbitai.com/2026/11/506990.html"
+      ]
+    },
+    {
+      "id": "2026-11-02-22",
+      "no": "22",
+      "category": "模型",
+      "title": "国产RSI：改“造AI的机器”成主流",
+      "why": "厂商不敢动模型权重，转而优化数据与训练流水线，反映AI造AI在国内的真实水位。",
+      "readMinutes": 5,
+      "publishedAt": "19:32",
+      "entities": [],
+      "aiPoints": [
+        "国产RSI热潮中，厂商普遍不碰模型权重，转向推理系统、沙箱和Agent框架。",
+        "智谱让Infra Agent在10万张国产卡上两周搭起生产级推理服务。",
+        "DeepSeek联合清华推出DSec沙箱工厂，每天生产约300万个沙箱。"
+      ],
+      "sources": [
+        {
+          "name": "雷峰网",
+          "monogram": "LF",
+          "time": "19:32",
+          "credibility": "中",
+          "note": "中文科技媒体",
+          "url": "https://www.leiphone.com/category/yanxishe/UIbgVZxTjEoMswaE.html"
+        }
+      ],
+      "body": [
+        {
+          "kind": "p",
+          "text": "RSI即AI造AI，成为2026年模型厂商争相展示的内部成绩单。但上海交大、清华、字节、商汤等35位研究者9月发表的论文《The Last AI Built by Humans》给出判断：全球前沿大厂系统大多处于L1到L2过渡阶段，L5闭环仅存在于极少数受限实验室原型中。用这把尺子衡量国内厂商，目前没有一家敢用AI真正改写底层模型权重。"
+        },
+        {
+          "kind": "h2",
+          "text": "智谱：从推理系统到Agent框架"
+        },
+        {
+          "kind": "p",
+          "text": "智谱是国内首个把RSI跑进生产环境的案例。9月17日，唐杰发文表示，由GLM-5.3驱动的Infra Agent在10万张国产芯片集群上，仅用两周从零搭起GLM-5.3-Flash的生产级推理服务，端到端吞吐拉到初始基线的3.2倍，硬件利用率和单Token成本追平主流英伟达GPU水平。匿名上线的GLM-5.3-Flash六天跑掉超过62万亿Token。10月下旬，清华与智谱团队更新HarnessPro论文，让多个专职Agent在不接触标准答案的前提下改进Agent调度框架，高难度代码任务通过率不降反升，单任务花费砍掉53%。"
+        },
+        {
+          "kind": "marker",
+          "text": "RSI"
+        },
+        {
+          "kind": "p",
+          "text": "RSI即递归自我改进，指AI系统参与改进自身或下一代AI的能力。论文将其分为L1到L5五层，L5代表AI能自主发明下一代AI。国内厂商目前的实践集中在推理系统、训练流水线、GPU算子和Agent脚手架，尚未触及模型权重改写。"
+        },
+        {
+          "kind": "h2",
+          "text": "DeepSeek：沙箱工厂与可插拔框架"
+        },
+        {
+          "kind": "p",
+          "text": "DeepSeek的RSI先从Agent训练场沙箱入手。9月19日，DeepSeek联合清华推出自动化沙箱集群DSec，拥有3万核CPU、250TB内存，每天能生产约300万个沙箱，从函数调用到完整虚拟机四档隔离环境秒级响应。其开源Harness主打一切皆插件，让Agent边跑边升级、改错可一键还原，背后Cordis机制已在开源聊天机器人框架Koishi上稳定运行四年，支撑超过4000个社区插件。"
+        }
+      ],
+      "aiBrief": {
+        "background": "RSI成为2026年模型厂商和一级市场热点，BP带上Self-Training字眼估值可多两成。但行业缺乏统一标尺，上海交大等35位研究者的五层分级论文为判断真实水位提供了参照。",
+        "impact": "国内厂商绕开模型权重，从推理系统、沙箱环境和Agent框架入手，实际降低了工程成本并提升效率。这种路径虽未触及L5，但把AI改进AI的闭环落在可验证的工程对象上，为后续自训练积累资产。",
+        "debate": "不碰模型权重的RSI是否算真正的AI造AI存在争议。支持者认为闭环本身驱动进步，反对者认为未触及学习方法进化。论文分级与厂商宣传之间的落差，也反映行业话语存在泡沫。",
+        "terms": [
+          {
+            "term": "RSI",
+            "explanation": "递归自我改进，指AI系统参与改进自身或下一代AI的能力，论文将其分为L1到L5五层，L5为完全自主闭环。"
+          },
+          {
+            "term": "Harness",
+            "explanation": "指大模型外围的调度框架，负责提示词设计、工具调用、算力预算分配和任务路由，是Agent运行的控制层。"
+          }
+        ]
+      },
+      "originalUrls": [
+        "https://www.leiphone.com/category/yanxishe/UIbgVZxTjEoMswaE.html"
+      ]
+    },
+    {
+      "id": "2026-11-02-23",
+      "no": "23",
+      "category": "产品",
+      "title": "沙钢接入千问办公落地Agent",
+      "why": "Agent进入电炉冶炼复盘、设备评估等核心场景，部分业务提效达数百倍。",
+      "readMinutes": 4,
+      "publishedAt": "18:38",
+      "entities": [],
+      "aiPoints": [
+        "沙钢接入千问办公，将Agent落地电炉冶炼复盘、变压器评估和财务分析。",
+        "电炉单炉复盘从约30分钟缩短至3分钟。",
+        "229台变压器点检从3至5个工作日缩短至几分钟，提效达数百倍。"
+      ],
+      "sources": [
+        {
+          "name": "雷峰网",
+          "monogram": "LF",
+          "time": "18:38",
+          "credibility": "中",
+          "note": "中文科技媒体",
+          "url": "https://www.leiphone.com/category/industrynews/mxLii4LkfIz829iH.html"
+        }
+      ],
+      "body": [
+        {
+          "kind": "p",
+          "text": "江苏沙钢钢铁有限公司正式接入千问办公，已将Agent落地到电炉冶炼复盘、变压器状态评估、财务经营分析等业务场景。沙钢是全国最大的电炉钢生产基地，产品应用于港珠澳大桥、西气东输等国家重大工程，远销100多个国家和地区。钢铁生产流程长、工序多，关键数据分散在生产系统、Excel表格和纸质台账中，工艺分析、设备管理与经营决策长期依赖人工整理。"
+        },
+        {
+          "kind": "h2",
+          "text": "电炉复盘与设备点检提速"
+        },
+        {
+          "kind": "p",
+          "text": "在电炉炼钢厂，过去工艺人员每炼完一炉钢，需从生产系统导出数张明细表手工拼合比对，单炉复盘耗时约30分钟。如今千问办公按炉号自动关联配料、能耗、合金、温度等七类数据，集中筛查异常炉次并给出调整建议，单炉复盘缩短至3分钟。在铁前总厂，229台变压器分布在13个车间，过去人工翻阅台账逐台比对，每月点检需3至5个工作日；现在系统按周期和油质指标自动判定风险、生成点检报告并派发整改任务，全程仅需几分钟，整体提效达数百倍。"
+        },
+        {
+          "kind": "marker",
+          "text": "Agent"
+        },
+        {
+          "kind": "p",
+          "text": "Agent指能自主完成多步骤任务的智能体，可根据目标调用工具、读取数据并生成结果。沙钢场景中，Agent的价值在于打通分散数据并自动完成分析，而非仅提供对话问答。"
+        },
+        {
+          "kind": "h2",
+          "text": "财务分析效率提升"
+        },
+        {
+          "kind": "p",
+          "text": "在财务经营分析环节，月度经营分析报表涉及几十张源报表、100多个数据单元格，过去需人工反复切换查找核对。千问办公自动完成取数、换算、校验与回读复核，每格数字均可溯源，编制效率提升90%以上。沙钢计划将冶炼分析、设备运维等经验打造为可复用的钢铁行业AI技能库，从单点场景走向全流程管理。"
+        }
+      ],
+      "aiBrief": {
+        "background": "钢铁行业生产流程长、数据分散，工艺分析和设备管理长期依赖人工整理。沙钢推进智慧沙钢建设，需要能打通数据、自主完成分析的Agent产品，千问办公作为企业级通用Agent被引入核心业务场景。",
+        "impact": "Agent在电炉复盘、变压器点检和财务分析中实现明显提效，部分场景达数百倍。若经验能沉淀为行业技能库，将为钢铁行业提供可复制的AI落地范本，推动Agent从办公辅助走向生产核心。",
+        "debate": "提效数字来自特定场景的前后对比，统计口径和人工基线未详细披露。Agent在异常处理、数据质量和跨系统集成上的稳定性仍需长期观察，技能库的复用效果也有待验证。",
+        "terms": [
+          {
+            "term": "Agent",
+            "explanation": "指能自主规划并执行多步骤任务的智能体，可调用工具、读取数据并生成结果，区别于单轮问答的聊天机器人。"
+          },
+          {
+            "term": "技能库",
+            "explanation": "指把特定行业的分析方法和操作经验封装为可复用AI能力的集合，便于在不同场景中调用和迁移。"
+          }
+        ]
+      },
+      "originalUrls": [
+        "https://www.leiphone.com/category/industrynews/mxLii4LkfIz829iH.html"
+      ]
+    },
+    {
+      "id": "2026-11-02-24",
+      "no": "24",
+      "category": "安全",
+      "title": "新型窃密木马用AI自动收集数据",
+      "why": "Volta-Autodoxer借助AI工具批量窃取凭证与支付信息，AI被武器化的风险上升。",
+      "readMinutes": 3,
+      "publishedAt": "20:00",
+      "entities": [],
+      "aiPoints": [
+        "Volta-Autodoxer木马利用AI工具自动收集受害者数据。",
+        "窃取范围包括登录凭证、信用卡号、Discord会话和UberEats收据。",
+        "AI被武器化用于批量窃密，安全风险上升。"
+      ],
+      "sources": [
+        {
+          "name": "Wired",
+          "monogram": "WI",
+          "time": "20:00",
+          "credibility": "高",
+          "note": "科技媒体，AI 与社会",
+          "url": "https://www.wired.com/story/kernel-panic-volta-autodoxer-ai-infostealer-malware/"
+        }
+      ],
+      "body": [
+        {
+          "kind": "p",
+          "text": "据Wired报道，一种名为Volta-Autodoxer的新型窃密木马被发现，它使用AI工具收集大量受害者数据，范围从登录凭证、信用卡号码到Discord会话和UberEats收据。报道称其利用AI对受害者信息进行“autodox”式自动整理和窃取。"
+        },
+        {
+          "kind": "h2",
+          "text": "AI成为窃密流程的自动化工具"
+        },
+        {
+          "kind": "p",
+          "text": "传统窃密木马主要抓取浏览器保存的密码和键盘输入，数据杂乱，攻击者仍需人工筛选。Volta-Autodoxer借助AI工具，可对窃取到的多类信息进行归集和整理，降低攻击者后续利用的门槛。素材显示，其目标数据覆盖凭证、支付信息和社交会话等多个类别。"
+        },
+        {
+          "kind": "marker",
+          "text": "窃密木马"
+        },
+        {
+          "kind": "p",
+          "text": "窃密木马是一类专门窃取用户敏感信息的恶意软件，通常潜伏在系统中收集账号密码、支付数据等。AI的加入使这类恶意软件在数据筛选和利用环节更高效，也让攻击的规模化门槛降低。"
+        },
+        {
+          "kind": "h2",
+          "text": "AI武器化的现实样本"
+        },
+        {
+          "kind": "p",
+          "text": "Volta-Autodoxer的出现是AI被武器化的一个具体案例。安全领域长期关注大模型被用于生成钓鱼内容或恶意代码，而此次木马直接把AI工具嵌入窃密流程。对个人用户而言，凭证和支付信息的泄露风险上升；对企业而言，员工社交会话和消费记录也可能成为攻击入口。"
+        }
+      ],
+      "aiBrief": {
+        "background": "窃密木马是网络犯罪中的常见工具，传统上依赖抓取浏览器密码和键盘记录。随着AI工具普及，攻击者开始把AI嵌入恶意软件的数据处理环节，提升窃密效率和可利用性。",
+        "impact": "AI辅助的窃密木马降低了攻击者筛选和利用数据的门槛，凭证、支付信息和社交会话面临更高泄露风险。安全防护需要关注恶意软件对AI工具的调用，个人和企业都应加强凭证管理和异常监测。",
+        "debate": "AI在木马中的具体作用范围和自动化程度尚缺少公开技术细节，报道未披露感染规模和传播渠道。AI武器化的讨论容易引发恐慌，实际风险取决于工具能力、攻击者水平和防护措施。",
+        "terms": [
+          {
+            "term": "窃密木马",
+            "explanation": "指专门窃取用户敏感信息的恶意软件，通常收集账号密码、支付数据等，并回传给攻击者。"
+          },
+          {
+            "term": "AI武器化",
+            "explanation": "指将人工智能技术用于攻击、欺诈或破坏目的，例如自动生成钓鱼内容、筛选窃取数据或辅助恶意软件开发。"
+          }
+        ]
+      },
+      "originalUrls": [
+        "https://www.wired.com/story/kernel-panic-volta-autodoxer-ai-infostealer-malware/"
+      ]
+    },
     {
       "id": "2026-10-30-01",
       "no": "01",
@@ -7457,6 +9303,42 @@
     }
   ],
   "editions": [
+    {
+      "date": "11.02",
+      "isoDate": "2026-11-02",
+      "weekday": "一",
+      "issue": "第 304 期",
+      "fullDate": "2026 年 11 月 2 日",
+      "pulse": "DeepSeek开源Agent底座、苹果国行AI接入千问、西湖大学建世界模型中心，模型与生态同步推进。",
+      "count": 24,
+      "done": false,
+      "storyIds": [
+        "2026-11-02-01",
+        "2026-11-02-02",
+        "2026-11-02-03",
+        "2026-11-02-04",
+        "2026-11-02-05",
+        "2026-11-02-06",
+        "2026-11-02-07",
+        "2026-11-02-08",
+        "2026-11-02-09",
+        "2026-11-02-10",
+        "2026-11-02-11",
+        "2026-11-02-12",
+        "2026-11-02-13",
+        "2026-11-02-14",
+        "2026-11-02-15",
+        "2026-11-02-16",
+        "2026-11-02-17",
+        "2026-11-02-18",
+        "2026-11-02-19",
+        "2026-11-02-20",
+        "2026-11-02-21",
+        "2026-11-02-22",
+        "2026-11-02-23",
+        "2026-11-02-24"
+      ]
+    },
     {
       "date": "10.30",
       "isoDate": "2026-10-30",
