@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-02T01:50:01.131Z",
+  "generatedAt": "2026-11-03T04:51:45.003Z",
   "today": {
-    "date": "11.02",
-    "fullDate": "2026 年 11 月 2 日",
-    "weekday": "星期一",
-    "issue": "第 304 期",
-    "pulse": "DeepSeek开源Agent底座、苹果国行AI接入千问、西湖大学建世界模型中心，模型与生态同步推进。",
+    "date": "11.03",
+    "fullDate": "2026 年 11 月 3 日",
+    "weekday": "星期二",
+    "issue": "第 305 期",
+    "pulse": "Anthropic 警告逼近 RSI 自我进化，美团国产算力万亿模型与 GPT-6 Astra 曝光，智能体安全与算力电力成治理焦点。",
     "weekLabel": [
       "一",
       "二",
@@ -17,6 +17,1833 @@
     ]
   },
   "stories": [
+    {
+      "id": "2026-11-03-01",
+      "no": "01",
+      "category": "模型",
+      "title": "Anthropic 称逼近 RSI 临界点",
+      "why": "Anthropic 自评已非常接近 AI 自我训练加速的 RSI 临界点，并在招股书中提示风险，能力与安全边界同时被推到台前。",
+      "readMinutes": 4,
+      "publishedAt": "06:14",
+      "entities": [
+        "anthropic"
+      ],
+      "aiPoints": [
+        "Anthropic 称已非常接近 RSI 能力",
+        "RSI 指 AI 训练自身、能力加速跃升的节点",
+        "招股书中同步提示相关风险"
+      ],
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "monogram": "TC",
+          "time": "06:14",
+          "credibility": "高",
+          "note": "科技媒体，AI 产业报道",
+          "url": "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/"
+        },
+        {
+          "name": "量子位",
+          "monogram": "QB",
+          "time": "10:02",
+          "credibility": "中",
+          "note": "中文 AI 媒体",
+          "url": "https://www.qbitai.com/2026/11/507339.html"
+        }
+      ],
+      "body": [
+        {
+          "kind": "p",
+          "text": "据 TechCrunch 报道，Anthropic 公开表示，公司已非常接近所谓 RSI 能力，也就是 AI 自我构建、自我训练加速的阶段。这一表态把「模型能力还能走多快」和「安全边界在哪里」两个问题同时摆上了台面。"
+        },
+        {
+          "kind": "h2",
+          "text": "RSI 意味着什么"
+        },
+        {
+          "kind": "p",
+          "text": "按报道中的定义，RSI 是 AI 在训练自身这件事上强到一定程度后，能力出现剧烈加速的节点。对担心 AI 风险的人来说，这被视为一个难以回头的分界点。Anthropic 的措辞是「非常接近」，并未给出具体时间表。"
+        },
+        {
+          "kind": "marker",
+          "text": "RSI"
+        },
+        {
+          "kind": "p",
+          "text": "值得注意的是，这一警告与招股书中的风险提示同时出现。对一家正在推进上市流程的公司来说，把自身技术进展描述为逼近风险临界点，既是能力宣示，也是一种风险披露。"
+        },
+        {
+          "kind": "h2",
+          "text": "能力与披露的双重信号"
+        },
+        {
+          "kind": "p",
+          "text": "目前公开信息有限：Anthropic 没有说明 RSI 的判定标准，也没有给出可验证的评测细节。因此更稳妥的读法是，这是一次关于技术节奏的公开表态，而非已经发生的事实。后续值得关注的是，它是否会伴随更具体的安全评估或外部审查机制。"
+        }
+      ],
+      "aiBrief": {
+        "background": "RSI 指 AI 在训练自身方面强到足以引发能力剧烈加速的节点，长期被视为 AI 安全讨论中的关键分界线。Anthropic 此次以「非常接近」描述自身状态，属于少见的公开自评。",
+        "impact": "若这一判断成立，模型迭代节奏可能进一步加快，安全评估、算力投入与监管讨论都会被同步推高；对正在推进上市的 Anthropic 而言，这也是一次面向投资人的风险前置披露。",
+        "debate": "争议在于 RSI 缺乏统一定义与可验证标准，企业自评难以被外部核实；「非常接近」既可能被读作真实进展，也可能被视为融资与叙事需要，目前素材不足以判断。",
+        "terms": [
+          {
+            "term": "RSI",
+            "explanation": "Recursive Self-Improvement，指 AI 能有效改进自身训练与研发流程，从而使能力提升不断加速的假设性节点。"
+          },
+          {
+            "term": "招股书风险提示",
+            "explanation": "公司在上市文件中披露可能影响经营的重大不确定性，通常涵盖技术、监管与安全等方向。"
+          }
+        ]
+      },
+      "originalUrls": [
+        "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/",
+        "https://www.qbitai.com/2026/11/507339.html"
+      ]
+    },
+    {
+      "id": "2026-11-03-02",
+      "no": "02",
+      "category": "模型",
+      "title": "美团发布 1.6 万亿参数 LongCat-2.5",
+      "why": "面向长程智能体任务的原生多模态模型，全程在国产算力上训练，被称为国产算力上完成的最大训练任务。",
+      "readMinutes": 4,
+      "publishedAt": "15:23",
+      "entities": [],
+      "aiPoints": [
+        "总参数 1.6 万亿，原生多模态",
+        "面向长程智能体任务设计",
+        "全程国产算力训练，规模为同类最大"
+      ],
+      "sources": [
+        {
+          "name": "雷峰网",
+          "monogram": "LF",
+          "time": "15:23",
+          "credibility": "中",
+          "note": "中文科技媒体",
+          "url": "https://www.leiphone.com/category/industrynews/mUPVr3RF0MHNmn3t.html"
+        }
+      ],
+      "body": [
+        {
+          "kind": "p",
+          "text": "11 月 2 日，美团发布新一代大模型 LongCat-2.5。据雷峰网报道，这是一款面向长程智能体任务的原生多模态模型，总参数 1.6 万亿，延续了 LongCat 系列此前的研发方向。"
+        },
+        {
+          "kind": "h2",
+          "text": "主打长程智能体"
+        },
+        {
+          "kind": "p",
+          "text": "「长程智能体任务」指向的是需要多步骤、较长执行链条的任务形态，对模型的上下文保持与工具调用稳定性要求更高。原生多模态则意味着模型从训练阶段就同时处理多种模态，而非后期拼接。"
+        },
+        {
+          "kind": "marker",
+          "text": "长程智能体任务"
+        },
+        {
+          "kind": "p",
+          "text": "更受关注的是训练底座。美团称 LongCat-2.5 全程在国产算力上训练，是目前国产算力上完成的最大训练任务。这一表述把模型发布与算力自主两条线绑在了一起。"
+        },
+        {
+          "kind": "h2",
+          "text": "国产算力的规模验证"
+        },
+        {
+          "kind": "p",
+          "text": "素材未披露具体芯片型号、训练时长与评测成绩，因此「最大规模」目前只是厂商口径。可确认的是，万亿级参数模型在国产算力上完成训练，本身就是一次工程能力的公开检验，后续需要看第三方评测与实际产品落地。"
+        }
+      ],
+      "aiBrief": {
+        "background": "LongCat 是美团自研的大模型系列，此前已有多代产品。此次 LongCat-2.5 把参数规模推到 1.6 万亿，并明确以长程智能体任务为主要场景，同时强调训练全程使用国产算力。",
+        "impact": "万亿级模型在国产算力上完成训练，为国内算力生态提供了一个规模样本；对美团而言，模型能力可与其本地生活、配送调度等长链条业务结合，但实际效果仍待验证。",
+        "debate": "「国产算力上最大训练任务」为厂商自述，缺少芯片型号、训练时长与基准成绩等细节；长程智能体任务的评测标准本身也不统一，能力强弱难以横向比较。",
+        "terms": [
+          {
+            "term": "长程智能体任务",
+            "explanation": "需要模型连续多步规划、调用工具并保持状态的任务，执行链条长，对稳定性与上下文管理要求高。"
+          },
+          {
+            "term": "原生多模态",
+            "explanation": "模型在预训练阶段就同时学习文本、图像等多种模态，而非在单模态模型上外挂其他模态能力。"
+          }
+        ]
+      },
+      "originalUrls": [
+        "https://www.leiphone.com/category/industrynews/mUPVr3RF0MHNmn3t.html"
+      ]
+    },
+    {
+      "id": "2026-11-03-03",
+      "no": "03",
+      "category": "模型",
+      "title": "GPT-6 Astra 曝光：可改 Qwen 权重",
+      "why": "有报道称 GPT-6 Astra 能直接修改 Qwen 权重、数学能力提升 6 倍，GPT-6.2 与 Fable 5.5 同期曝光，基模竞赛升温。",
+      "readMinutes": 4,
+      "publishedAt": "21:36",
+      "entities": [
+        "openai"
+      ],
+      "aiPoints": [
+        "报道称 Astra 可直接修改 Qwen 权重",
+        "数学能力被称提升 6 倍",
+        "GPT-6.2 与 Fable 5.5 同期曝光"
+      ],
+      "sources": [
+        {
+          "name": "量子位",
+          "monogram": "QB",
+          "time": "21:36",
+          "credibility": "中",
+          "note": "中文 AI 媒体",
+          "url": "https://www.qbitai.com/2026/11/507277.html"
+        },
+        {
+          "name": "爱范儿",
+          "monogram": "IF",
+          "time": "09:51",
+          "credibility": "中",
+          "note": "中文科技媒体",
+          "url": "https://www.ifanr.com/1687071?utm_source=rss&utm_medium=rss&utm_campaign="
+        }
+      ],
+      "body": [
+        {
+          "kind": "p",
+          "text": "据量子位报道，MIT 相关消息称 GPT-6 Astra 能够直接修改 Qwen 的权重，数学能力提升 6 倍，指令执行能力也同步提升。与此同时，爱范儿报道 GPT-6.2 Astra 与 Fable 5.5 双双曝光，称「疯狂 11 月」正式开场。"
+        },
+        {
+          "kind": "h2",
+          "text": "改权重意味着什么"
+        },
+        {
+          "kind": "p",
+          "text": "直接修改其他模型的权重，指向的是模型间参数级干预能力，而非仅通过提示词或接口调用。若属实，这类能力会牵动模型授权、开源协议与安全边界等一系列问题。"
+        },
+        {
+          "kind": "marker",
+          "text": "权重"
+        },
+        {
+          "kind": "p",
+          "text": "不过目前披露的信息相当有限：素材只给出「数学能力暴涨 6 倍」这一说法，没有基准名称、测试条件或复现方式，也没有 OpenAI 官方确认。GPT-6.2 与 Fable 5.5 同样只有曝光层面的描述。"
+        },
+        {
+          "kind": "h2",
+          "text": "11 月的基模节奏"
+        },
+        {
+          "kind": "p",
+          "text": "可以确认的是节奏：多家厂商的新一代基座模型集中在同一时间段放出消息，竞争焦点从参数规模转向具体能力项与模型间互操作。对这些数字，读者宜先当作待验证的说法。"
+        }
+      ],
+      "aiBrief": {
+        "background": "GPT-6 系列与 Fable 系列均为近期曝光的新一代基座模型，消息多来自媒体转述而非官方发布。Astra 被描述为具备跨模型权重操作能力，并伴随数学与指令执行能力的提升说法。",
+        "impact": "若跨模型权重修改能力成立，模型之间的边界会变得更模糊，开源模型的授权与安全问题将被重新讨论；对基模竞赛而言，竞争指标也从参数规模转向具体能力项。",
+        "debate": "「数学能力涨 6 倍」缺少基准名称与测试条件，权重修改的具体方式也未披露，且无 OpenAI 官方确认；GPT-6.2 与 Fable 5.5 仅有曝光，真实性待核。",
+        "terms": [
+          {
+            "term": "权重",
+            "explanation": "神经网络中通过训练得到的参数，决定模型的行为；修改权重等同于直接改动模型内部能力。"
+          },
+          {
+            "term": "基模",
+            "explanation": "基础模型，指经大规模预训练、可再适配到多种下游任务的通用模型，区别于针对单一场景的专用模型。"
+          }
+        ]
+      },
+      "originalUrls": [
+        "https://www.qbitai.com/2026/11/507277.html",
+        "https://www.ifanr.com/1687071?utm_source=rss&utm_medium=rss&utm_campaign="
+      ]
+    },
+    {
+      "id": "2026-11-03-04",
+      "no": "04",
+      "category": "算力",
+      "title": "北大与 IBM 提出模拟矩阵计算",
+      "why": "模拟计算进入矩阵时代，一步可完成 GPU 需迭代百次的工作，可能为 AI 计算提供新的能效路径。",
+      "readMinutes": 3,
+      "publishedAt": "09:57",
+      "entities": [],
+      "aiPoints": [
+        "模拟计算从向量扩展到矩阵运算",
+        "一步完成 GPU 需迭代百次的工作",
+        "或改变 AI 计算的能效路径"
+      ],
+      "sources": [
+        {
+          "name": "量子位",
+          "monogram": "QB",
+          "time": "09:57",
+          "credibility": "中",
+          "note": "中文 AI 媒体",
+          "url": "https://www.qbitai.com/2026/11/507322.html"
+        }
+      ],
+      "body": [
+        {
+          "kind": "p",
+          "text": "北京大学与 IBM 合作提出模拟矩阵计算方案，把模拟计算的适用范围从向量运算推进到矩阵运算。相关报道称，这类方案可一步完成 GPU 需要迭代上百次的工作。"
+        },
+        {
+          "kind": "h2",
+          "text": "为什么矩阵是关键"
+        },
+        {
+          "kind": "p",
+          "text": "AI 计算的主体是矩阵乘法，模拟计算若只能处理向量，价值就受限。把矩阵纳入模拟计算，才有可能触及神经网络训练与推理的核心负载，这也是该工作被视为方向性进展的原因。"
+        },
+        {
+          "kind": "marker",
+          "text": "模拟计算"
+        },
+        {
+          "kind": "p",
+          "text": "需要说明的是，素材未给出精度、功耗、工艺节点等关键指标，也没有说明该方案处于实验演示还是可量产阶段。「一步完成 GPU 迭代百次」是效率层面的描述，不等于端到端性能的等比例提升。"
+        },
+        {
+          "kind": "h2",
+          "text": "能效路径的另一种可能"
+        },
+        {
+          "kind": "p",
+          "text": "在数字芯片能效逼近瓶颈的背景下，模拟计算被反复提起，但精度与可编程性长期是难点。这项工作提供的是一个值得跟踪的方向，距离替代现有加速器还有很长的验证链条。"
+        }
+      ],
+      "aiBrief": {
+        "background": "模拟计算用物理量直接完成运算，理论上比数字电路更省能，但长期受限于精度与可编程性。北大与 IBM 此次把模拟计算推进到矩阵运算，正对 AI 负载的核心环节。",
+        "impact": "若精度与稳定性问题可解，模拟矩阵计算可能为 AI 训练与推理提供一条低功耗路径，缓解算力扩张带来的能耗压力；短期内更可能作为特定场景的补充方案。",
+        "debate": "素材未披露精度、功耗与工艺等指标，也未说明工程化程度；「一步抵 GPU 迭代百次」是运算方式层面的对比，能否转化为实际吞吐与能效优势仍不确定。",
+        "terms": [
+          {
+            "term": "模拟计算",
+            "explanation": "用电压、电流等连续物理量直接完成运算的方式，省去数字编码步骤，理论上更省能，但精度控制困难。"
+          },
+          {
+            "term": "矩阵运算",
+            "explanation": "线性代数中的矩阵乘法等操作，是神经网络训练与推理的主要计算负载。"
+          }
+        ]
+      },
+      "originalUrls": [
+        "https://www.qbitai.com/2026/11/507322.html"
+      ]
+    },
+    {
+      "id": "2026-11-03-05",
+      "no": "05",
+      "category": "算力",
+      "title": "OpenAI 推出电网保护计划",
+      "why": "在佐治亚州数据中心试点，紧急时可释放最多 1000 兆瓦电力，回应数据中心用电与电价争议。",
+      "readMinutes": 4,
+      "publishedAt": "02:01",
+      "entities": [
+        "openai"
+      ],
+      "aiPoints": [
+        "试点选址佐治亚州 Effingham 县",
+        "紧急时可释放最多 1000 兆瓦",
+        "官方称将与公用事业公司合作"
+      ],
+      "sources": [
+        {
+          "name": "The Verge",
+          "monogram": "TV",
+          "time": "02:01",
+          "credibility": "高",
+          "note": "科技媒体，AI 产品与政策",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1024604/openai-data-center-grid-protection-program"
+        },
+        {
+          "name": "OpenAI",
+          "monogram": "OA",
+          "time": "23:00",
+          "credibility": "高",
+          "note": "官方发布",
+          "url": "https://openai.com/index/grid-protectors-program"
+        },
+        {
+          "name": "爱范儿",
+          "monogram": "IF",
+          "time": "08:17",
+          "credibility": "中",
+          "note": "中文科技媒体",
+          "url": "https://www.ifanr.com/1687189?utm_source=rss&utm_medium=rss&utm_campaign="
+        }
+      ],
+      "body": [
+        {
+          "kind": "p",
+          "text": "OpenAI 宣布推出「电网保护计划」（Grid Protectors Program），将在佐治亚州 Effingham 县一座即将建成的数据中心进行试点。据 The Verge 报道，公司承诺在极端天气或紧急情况下可释放最多 1000 兆瓦电力，相当于约 70 万户家庭的空调用电。"
+        },
+        {
+          "kind": "h2",
+          "text": "计划怎么运作"
+        },
+        {
+          "kind": "p",
+          "text": "按 OpenAI 官方说明，该计划将与公用事业公司合作，让未来的算力园区在电网紧张时降低负载，以支持电网可靠性并保护居民电价。换言之，数据中心被设计成可调节的用电方，而非单纯的刚性负荷。"
+        },
+        {
+          "kind": "marker",
+          "text": "电网保护计划"
+        },
+        {
+          "kind": "p",
+          "text": "这一宣布的背景是，美国多地针对数据中心的反对情绪正在扩散。报道提到，犹他州居民曾在 Box Elder 县委员批准一个预计耗电量超过当地两倍以上的数据中心项目后发起抗议，类似项目往往在缺少当地居民参与的情况下推进。"
+        },
+        {
+          "kind": "h2",
+          "text": "回应与质疑并存"
+        },
+        {
+          "kind": "p",
+          "text": "释放 1000 兆瓦是上限口径，实际可调度的容量、触发条件与补偿机制尚未公开。对数据中心而言，这类承诺能否缓解选址阻力，取决于它在多大程度上改变了用电与电价的实际分配。"
+        }
+      ],
+      "aiBrief": {
+        "background": "AI 数据中心用电规模快速上升，美国多地出现针对项目的社区反对，焦点集中在电网容量与居民电价。OpenAI 此时推出电网保护计划，把数据中心定位为可配合电网降载的灵活负荷。",
+        "impact": "若模式可行，数据中心与电网的关系可能从单纯争抢容量转向协同调峰，有助于降低选址阻力；对公用事业公司而言，也提供了新的需求侧调节资源。",
+        "debate": "1000 兆瓦是紧急情况下的上限，实际可释放容量、触发条件与成本分担未披露；批评者可能认为这只是公关回应，难以改变数据中心长期占用电力与推高电价的担忧。",
+        "terms": [
+          {
+            "term": "电网保护计划",
+            "explanation": "OpenAI 提出的试点方案，让数据中心在极端天气或紧急情况下主动降载，向电网释放电力以保障可靠性。"
+          },
+          {
+            "term": "需求侧响应",
+            "explanation": "用电方在电网紧张时主动减少用电，以替代新增发电装机，常用于调峰和应急场景。"
+          }
+        ]
+      },
+      "originalUrls": [
+        "https://www.theverge.com/ai-artificial-intelligence/1024604/openai-data-center-grid-protection-program",
+        "https://openai.com/index/grid-protectors-program",
+        "https://www.ifanr.com/1687189?utm_source=rss&utm_medium=rss&utm_campaign="
+      ]
+    },
+    {
+      "id": "2026-11-03-06",
+      "no": "06",
+      "category": "产品",
+      "title": "ChatGPT 合并 Chat 与 Work 标签",
+      "why": "ChatGPT 与 Codex 共用同一用量池，标志 OpenAI 把编码与通用对话整合为统一入口。",
+      "readMinutes": 3,
+      "publishedAt": "21:57",
+      "entities": [
+        "openai"
+      ],
+      "aiPoints": [
+        "Chat 与 Work 两个标签合并",
+        "ChatGPT 与 Codex 共用用量池",
+        "编码与通用对话走向统一入口"
+      ],
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "monogram": "TC",
+          "time": "21:57",
+          "credibility": "高",
+          "note": "科技媒体，AI 产业报道",
+          "url": "https://techcrunch.com/2026/11/02/openai-is-finally-merging-chatgpts-chat-and-work-tabs/"
+        }
+      ],
+      "body": [
+        {
+          "kind": "p",
+          "text": "据 TechCrunch 报道，OpenAI 正在合并 ChatGPT 中的 Chat 与 Work 两个标签。公司表示，调整后 ChatGPT 与 Codex 将从同一个用量池中扣除额度。"
+        },
+        {
+          "kind": "h2",
+          "text": "用量池合并的含义"
+        },
+        {
+          "kind": "p",
+          "text": "此前对话与编码能力分属不同入口与配额，合并后用户不必在两种模式间切换，额度也统一计算。对重度使用编码功能的用户来说，实际可用额度会随使用结构变化。"
+        },
+        {
+          "kind": "marker",
+          "text": "用量池"
+        },
+        {
+          "kind": "p",
+          "text": "这一步的指向比较清楚：OpenAI 把编码与通用对话视为同一产品的两种用法，而不是两条独立产品线。入口收敛通常也意味着后续的计费与权限设计会围绕统一账户展开。"
+        },
+        {
+          "kind": "h2",
+          "text": "统一入口之后"
+        },
+        {
+          "kind": "p",
+          "text": "素材未披露合并的具体时间表、是否影响现有订阅档位，以及 Codex 独立入口是否保留。可以观察的是，产品整合往往会先于定价调整出现，用户侧的额度体验值得留意。"
+        }
+      ],
+      "aiBrief": {
+        "background": "ChatGPT 此前把通用对话与面向工作的能力分置于不同标签，Codex 则作为编码方向的产品存在。此次合并把两者放进同一界面，并统一用量计算方式。",
+        "impact": "对用户而言，入口更简单，但额度共享意味着编码与对话会互相挤占配额；对 OpenAI 而言，统一入口有助于把编码能力嵌入日常使用场景，提升单账户的使用深度。",
+        "debate": "合并后的具体计费规则、各订阅档位的额度变化以及 Codex 是否保留独立入口均未说明；共用用量池可能让重度编码用户感到额度更紧张，实际影响取决于后续定价。",
+        "terms": [
+          {
+            "term": "用量池",
+            "explanation": "账户内可共享调用的额度总量，不同功能从同一池中扣除，而非各自独立计算。"
+          },
+          {
+            "term": "Codex",
+            "explanation": "OpenAI 面向代码生成与编程任务的模型与产品线，此次调整后与 ChatGPT 共用用量额度。"
+          }
+        ]
+      },
+      "originalUrls": [
+        "https://techcrunch.com/2026/11/02/openai-is-finally-merging-chatgpts-chat-and-work-tabs/"
+      ]
+    },
+    {
+      "id": "2026-11-03-07",
+      "no": "07",
+      "category": "Agent",
+      "title": "DeepSeek 发布全新 Agent 架构",
+      "why": "国产开源力量在智能体架构上再进一步，AI 指挥 AI 干活，Agent 编排成为新的瓶颈。",
+      "readMinutes": 3,
+      "publishedAt": "21:59",
+      "entities": [
+        "deepseek"
+      ],
+      "aiPoints": [
+        "DeepSeek 发布全新 Agent 架构",
+        "核心思路是让 AI 指挥 AI 干活",
+        "Agent 编排被视为下一个瓶颈"
+      ],
+      "sources": [
+        {
+          "name": "爱范儿",
+          "monogram": "IF",
+          "time": "21:59",
+          "credibility": "中",
+          "note": "中文科技媒体",
+          "url": "https://www.ifanr.com/1687026?utm_source=rss&utm_medium=rss&utm_campaign="
+        }
+      ],
+      "body": [
+        {
+          "kind": "p",
+          "text": "DeepSeek 发布了全新的 Agent 架构。据爱范儿报道，这套架构的核心变化是让 AI 开始指挥 AI 干活，把任务拆解与调度交给模型自身完成。"
+        },
+        {
+          "kind": "h2",
+          "text": "编排成为新瓶颈"
+        },
+        {
+          "kind": "p",
+          "text": "报道指出，AI Agent 的下一个瓶颈，可能是人类自己。当智能体能够互相调用、分工执行时，如何编排这些智能体、如何界定它们之间的协作边界，成为比单点能力更棘手的问题。"
+        },
+        {
+          "kind": "marker",
+          "text": "Agent 编排"
+        },
+        {
+          "kind": "p",
+          "text": "目前公开的信息较为有限，DeepSeek 尚未披露架构细节、可用范围与上线时间。可以确认的是，这一方向与近期多家厂商押注的多智能体协同路线一致。"
+        },
+        {
+          "kind": "h2",
+          "text": "待观察的部分"
+        },
+        {
+          "kind": "p",
+          "text": "对开发者而言，真正值得关注的是这套架构能否在真实任务中稳定运行，以及是否会以开源方式释放。素材中没有更多技术参数，后续进展仍需等待官方说明。"
+        }
+      ],
+      "aiBrief": {
+        "background": "DeepSeek 以开源模型为人熟知，此次把重心放到 Agent 架构层面。爱范儿的报道将其概括为“AI 开始指挥 AI 干活”，指向多智能体之间的任务分派与协作。",
+        "impact": "如果架构可用，开发者可以用更少的编排代码搭建多步骤任务流程。对国内开源生态而言，这也是智能体基础设施层面的一次补位。",
+        "debate": "素材未披露架构细节、性能数据与开放方式，实际效果难以判断。“AI 指挥 AI”的表述也偏概念化，能否落地仍需验证。",
+        "terms": [
+          {
+            "term": "Agent 编排",
+            "explanation": "指把复杂任务拆分给多个智能体，并安排调用顺序、分工与结果汇总的调度机制。"
+          },
+          {
+            "term": "多智能体协同",
+            "explanation": "多个智能体各自负责不同子任务，通过协议或接口互相调用，共同完成一个完整流程。"
+          }
+        ]
+      },
+      "originalUrls": [
+        "https://www.ifanr.com/1687026?utm_source=rss&utm_medium=rss&utm_campaign="
+      ]
+    },
+    {
+      "id": "2026-11-03-08",
+      "no": "08",
+      "category": "Agent",
+      "title": "阿里 Qoder 获领先科技奖",
+      "why": "凭智能体 Harness 技术突破获奖，已服务超 800 万用户、10 万家企业，是国内唯一获奖通用 Agent。",
+      "readMinutes": 4,
+      "publishedAt": "17:26",
+      "entities": [],
+      "aiPoints": [
+        "Qoder 获世界互联网大会领先科技奖",
+        "已服务超 800 万用户、10 万家企业",
+        "今年 20 项成果从 430 多项中选出"
+      ],
+      "sources": [
+        {
+          "name": "雷峰网",
+          "monogram": "LF",
+          "time": "17:26",
+          "credibility": "中",
+          "note": "中文科技媒体",
+          "url": "https://www.leiphone.com/category/industrynews/JrXpr0xuLSNA9sOY.html"
+        }
+      ],
+      "body": [
+        {
+          "kind": "p",
+          "text": "11 月 2 日，2026 世界互联网大会颁奖典礼在浙江乌镇举行。阿里智能体平台 Qoder 凭借在智能体 Harness 上的技术突破和全球市场份额，获得领先科技奖，是国内唯一获得该奖项的通用 Agent 产品。"
+        },
+        {
+          "kind": "h2",
+          "text": "从模型到运行框架的联合设计"
+        },
+        {
+          "kind": "p",
+          "text": "据雷峰网报道，Qoder 实现了模型、Agent 运行框架与产品的联合设计，让智能体理解工程、自主编写工具、循环探索推进并完成研发任务。产品家族已覆盖桌面版、AI 原生 IDE、命令行工具 CLI、JetBrains 插件、数字员工产品 QoderWake 与云端 Cloud Agents。"
+        },
+        {
+          "kind": "marker",
+          "text": "Harness"
+        },
+        {
+          "kind": "p",
+          "text": "今年大会共征集来自 43 个国家和地区的 430 多项科技成果，最终 20 项入选。Qoder 已服务全球超过 800 万用户，中国移动、东方航空、吉利汽车等超过 10 万家企业接入。IDC 2025 年中国 AI 编程市场份额报告中，Qoder 以 47.6% 位居第一。"
+        },
+        {
+          "kind": "h2",
+          "text": "场景与生态的延伸"
+        },
+        {
+          "kind": "p",
+          "text": "10 月底，Qoder 上线桌面端互联功能，可在常用客户端连接另一台设备的桌面端，发起任务、跟进进度并预览远端结果。企业用户还可通过 SDK 把智能体嵌入自有产品，在云端运行长程任务。"
+        }
+      ],
+      "aiBrief": {
+        "background": "世界互联网大会领先科技奖面向全球互联网科技成果，今年从 43 个国家和地区的 430 多项成果中选出 20 项，覆盖量子计算、芯片、具身智能与 AI 应用等领域。",
+        "impact": "AI 编程是大模型落地最快的领域之一。Qoder 的获奖与份额数据，说明国内厂商在这一赛道已具备规模化用户基础，竞争焦点正转向工程理解与任务闭环。",
+        "debate": "获奖与份额数据来自厂商与第三方报告，统计口径未在素材中展开。智能体自主完成研发任务的实际完成率与可靠性，仍缺少公开的独立评测。",
+        "terms": [
+          {
+            "term": "Harness",
+            "explanation": "指包裹在模型外层的运行框架，负责工具调用、上下文管理与任务循环，决定智能体能做多复杂的事。"
+          },
+          {
+            "term": "AI 原生 IDE",
+            "explanation": "从设计之初就把 AI 能力嵌入编辑、调试与代码生成流程的开发环境，而非后期加装插件。"
+          }
+        ]
+      },
+      "originalUrls": [
+        "https://www.leiphone.com/category/industrynews/JrXpr0xuLSNA9sOY.html"
+      ]
+    },
+    {
+      "id": "2026-11-03-09",
+      "no": "09",
+      "category": "Agent",
+      "title": "支付宝 AHA 破解智能体跨端协同",
+      "why": "支持跨品牌、跨终端智能体协同办事且边界互不干涉，获世界互联网大会场景奖，指向生态孤岛难题。",
+      "readMinutes": 4,
+      "publishedAt": "17:41",
+      "entities": [],
+      "aiPoints": [
+        "AHA 方案获“新耀”场景奖",
+        "支持跨品牌、跨终端智能体协同",
+        "已输出至 6 类终端、千余场景"
+      ],
+      "sources": [
+        {
+          "name": "雷峰网",
+          "monogram": "LF",
+          "time": "17:41",
+          "credibility": "中",
+          "note": "中文科技媒体",
+          "url": "https://www.leiphone.com/category/industrynews/oPrDWg9bNg1Dgy4a.html"
+        }
+      ],
+      "body": [
+        {
+          "kind": "p",
+          "text": "11 月 2 日，2026 年世界互联网大会乌镇峰会开幕，支付宝 AHA（Agent Hub Access）智能体多端互联方案获“新耀”场景奖。该奖项重点考察数智技术落地实效与复制推广价值。"
+        },
+        {
+          "kind": "h2",
+          "text": "用协议打通孤岛"
+        },
+        {
+          "kind": "p",
+          "text": "当前各类智能体多为独立体系，缺少标准化协同通路。AHA 以支付宝 App 作为账号与能力锚点，依托 A2A、MCP、A2UI 开源协议搭建三层互联协议体系，把支付宝的政务、出行、医疗、生活服务能力输出至手机、车机、智能眼镜、大模型 App 等终端。"
+        },
+        {
+          "kind": "marker",
+          "text": "A2A"
+        },
+        {
+          "kind": "p",
+          "text": "在协同之外，AHA 通过分域授权、数据隔离与端侧加密保障各主体边界独立互不干涉。方案于今年 8 月正式对外发布，目前阿宝的服务能力已输出至 6 类终端，落地千余个服务场景。"
+        },
+        {
+          "kind": "h2",
+          "text": "生态与标准"
+        },
+        {
+          "kind": "p",
+          "text": "支付宝联合千问、华为、OPPO、比亚迪、蔚来等 20 余家企业共建协同生态，已实现 5 家主流手机厂商跨端协同，合作厂商份额合计超 70%；车端覆盖 16 个主流汽车品牌。蚂蚁集团还是《人工智能 智能体互联》国家标准化指导性技术文件的核心参编单位。"
+        }
+      ],
+      "aiBrief": {
+        "background": "智能体数量快速增长，但各家体系彼此独立，跨品牌、跨终端难以联动，复杂业务流程难以串联。支付宝以自身账号与生活服务能力为锚点，尝试提供统一的接入通路。",
+        "impact": "平台化接入可降低终端厂商的适配成本与接入周期。若协议被更多厂商采纳，跨端互联可能成为智能服务分发的新入口，用户可在车机、眼镜等终端直接办理民生服务。",
+        "debate": "跨端协同涉及账号、支付与个人数据，边界互不干涉的承诺需要技术与审计双重支撑。生态能否持续扩大，也取决于其他厂商是否愿意接入支付宝主导的协议体系。",
+        "terms": [
+          {
+            "term": "A2A",
+            "explanation": "Agent to Agent 的缩写，指智能体之间互相发现、调用与交换任务的通信协议。"
+          },
+          {
+            "term": "分域授权",
+            "explanation": "按业务或数据范围分别授予访问权限，使不同主体只能触达各自被允许的部分。"
+          }
+        ]
+      },
+      "originalUrls": [
+        "https://www.leiphone.com/category/industrynews/oPrDWg9bNg1Dgy4a.html"
+      ]
+    },
+    {
+      "id": "2026-11-03-10",
+      "no": "10",
+      "category": "政策",
+      "title": "世界互联网大会聚焦智能体安全",
+      "why": "专委会 2027 计划将聚焦智能体安全可控与协同治理，360 等参与，AI 治理向行为管控延伸。",
+      "readMinutes": 4,
+      "publishedAt": "10:00",
+      "entities": [
+        "regulation"
+      ],
+      "aiPoints": [
+        "专委会审议 2027 年度工作计划草案",
+        "聚焦智能体安全可控与协同治理",
+        "治理重心从管内容转向管行为"
+      ],
+      "sources": [
+        {
+          "name": "雷峰网",
+          "monogram": "LF",
+          "time": "10:00",
+          "credibility": "中",
+          "note": "中文科技媒体",
+          "url": "https://www.leiphone.com/category/industrynews/z4pIQvELeZ9lYfrG.html"
+        }
+      ],
+      "body": [
+        {
+          "kind": "p",
+          "text": "11 月 2 日，世界互联网大会人工智能专业委员会 2026 年全体会议及第三次主任委员会议在浙江乌镇召开。360 集团首席科学家、高级副总裁潘剑锋以副主任委员身份出席。"
+        },
+        {
+          "kind": "h2",
+          "text": "从内容安全到行为管控"
+        },
+        {
+          "kind": "p",
+          "text": "会议审议的 2027 年度工作计划（草案）提出，专委会安全与治理推进计划将进一步聚焦“智能体安全可控与协同治理”，推动 AI 安全治理向智能体行为管控、治理能力建设和全球治理机制延伸。"
+        },
+        {
+          "kind": "marker",
+          "text": "智能体安全"
+        },
+        {
+          "kind": "p",
+          "text": "随着 AI 从内容生成走向自主执行，智能体开始调用工具、访问数据并自主完成任务，风险也从内容层面延伸到权限管理和行为管控。专委会计划就智能体权限管理、自主决策与人类管控、多智能体协作安全、全周期安全管理等方向开展专题研讨和联合研究。"
+        },
+        {
+          "kind": "h2",
+          "text": "企业侧的实践"
+        },
+        {
+          "kind": "p",
+          "text": "2026 年，专委会安全与治理推进计划先后赴华为、360 集团、阿里云智能集团、百度等成员单位实地调研。360 以“以模治模、以智能体对抗智能体”为思路，推出智能体安全防护与管理系统，覆盖资产发现、行为管控、威胁检测、事件响应与损失恢复等环节。"
+        }
+      ],
+      "aiBrief": {
+        "background": "智能体从回答问题走向执行任务，能调用工具、访问数据并自主完成流程。安全议题随之从生成内容是否合规，扩展到权限授予、行为边界与多智能体协作风险。",
+        "impact": "治理重心从“管内容”转向“管行为”，意味着企业需要把智能体运行过程纳入安全管理，权限管理与运行时管控类产品可能迎来需求增长。",
+        "debate": "智能体自主决策与人类管控之间如何划界，目前缺少统一规则。相关计划仍处于草案与研讨阶段，具体标准与约束力尚不明确。",
+        "terms": [
+          {
+            "term": "智能体安全",
+            "explanation": "针对智能体在调用工具、访问数据和自主执行过程中的权限、行为与协作风险所采取的管理与防护。"
+          },
+          {
+            "term": "运行时管控",
+            "explanation": "在智能体实际运行过程中，对文件访问、网络连接、命令执行等行为实时拦截或放行的管理方式。"
+          }
+        ]
+      },
+      "originalUrls": [
+        "https://www.leiphone.com/category/industrynews/z4pIQvELeZ9lYfrG.html"
+      ]
+    },
+    {
+      "id": "2026-11-03-11",
+      "no": "11",
+      "category": "政策",
+      "title": "纽约时报等起诉 Brave 抓取内容",
+      "why": "指控 Brave 抓取版权内容训练 AI 并帮用户绕过付费墙，AI 数据版权诉讼再添一案。",
+      "readMinutes": 3,
+      "publishedAt": "03:19",
+      "entities": [
+        "regulation"
+      ],
+      "aiPoints": [
+        "纽约时报等起诉浏览器公司 Brave",
+        "指控其抓取内容并提供给 AI 公司",
+        "还涉及帮助用户绕过付费墙"
+      ],
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "monogram": "TC",
+          "time": "03:19",
+          "credibility": "高",
+          "note": "科技媒体，AI 产业报道",
+          "url": "https://techcrunch.com/2026/11/02/new-york-times-and-other-outlets-sue-web-browser-brave-over-alleged-content-scraping/"
+        },
+        {
+          "name": "The Verge",
+          "monogram": "TV",
+          "time": "01:51",
+          "credibility": "高",
+          "note": "科技媒体，AI 产品与政策",
+          "url": "https://www.theverge.com/tech/1024588/brave-lawsuit-ai-scraping-new-york-times"
+        }
+      ],
+      "body": [
+        {
+          "kind": "p",
+          "text": "据 TechCrunch 与 The Verge 报道，纽约时报及其他多家出版机构对 Brave 浏览器背后的公司提起诉讼，指控其抓取受版权保护的内容并非法分发给自己的客户，其中包括 Anthropic 和 Perplexity 等 AI 公司。"
+        },
+        {
+          "kind": "h2",
+          "text": "索引如何变现"
+        },
+        {
+          "kind": "p",
+          "text": "根据纽约每日新闻、芝加哥论坛报与奥兰多哨兵报提交的诉状，Brave Software 将抓取网站形成的索引变现，方式之一是向 AI 公司提供付费访问“来自 Brave 索引的实时在线内容”。这些公司随后用索引训练模型、回应用户查询，或两者兼有。"
+        },
+        {
+          "kind": "marker",
+          "text": "付费墙"
+        },
+        {
+          "kind": "p",
+          "text": "诉讼还指控 Brave 让用户绕过出版机构的付费墙。The Verge 的报道提到，这组诉讼由路透社率先披露，具体索赔与审理安排尚未在素材中体现。"
+        },
+        {
+          "kind": "h2",
+          "text": "版权争议的延续"
+        },
+        {
+          "kind": "p",
+          "text": "这是 AI 数据版权争议中的又一起案件。争议焦点不只是抓取本身，还包括浏览器把抓取结果作为商品出售给模型厂商这一中间环节。"
+        }
+      ],
+      "aiBrief": {
+        "background": "出版机构与 AI 公司围绕训练数据的纠纷持续增多。此次被告不是模型厂商，而是提供浏览器的 Brave，其抓取索引被指以付费方式开放给 AI 公司使用。",
+        "impact": "若诉请获支持，浏览器与搜索类中间层在数据分发中的角色将受到更严格审视，向模型厂商出售内容访问权的商业模式可能面临调整。",
+        "debate": "抓取公开网页与绕过付费墙的法律定性并不相同，索引服务属于合理使用还是侵权，各地判例尚未统一。素材未包含 Brave 的完整回应。",
+        "terms": [
+          {
+            "term": "付费墙",
+            "explanation": "出版机构对在线内容设置的订阅或付费访问限制，未付费用户只能看到部分内容。"
+          },
+          {
+            "term": "索引",
+            "explanation": "搜索引擎或浏览器预先抓取并存储网页内容形成的数据库，用于后续检索与内容分发。"
+          }
+        ]
+      },
+      "originalUrls": [
+        "https://techcrunch.com/2026/11/02/new-york-times-and-other-outlets-sue-web-browser-brave-over-alleged-content-scraping/",
+        "https://www.theverge.com/tech/1024588/brave-lawsuit-ai-scraping-new-york-times"
+      ]
+    },
+    {
+      "id": "2026-11-03-12",
+      "no": "12",
+      "category": "产品",
+      "title": "Anthropic 限制 Claude 复刻游戏",
+      "why": "更新 Claude Code 系统提示，阻止用于重建现有电子游戏，回应 AI 复刻老游戏泛滥。",
+      "readMinutes": 3,
+      "publishedAt": "02:56",
+      "entities": [
+        "anthropic"
+      ],
+      "aiPoints": [
+        "Claude Code 系统提示新增限制",
+        "允许做原创游戏，不允许直接复刻",
+        "回应复古游戏 AI 移植泛滥"
+      ],
+      "sources": [
+        {
+          "name": "The Verge",
+          "monogram": "TV",
+          "time": "02:56",
+          "credibility": "高",
+          "note": "科技媒体，AI 产品与政策",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1024632/anthropic-claude-ai-video-game-clones"
+        }
+      ],
+      "body": [
+        {
+          "kind": "p",
+          "text": "据 The Verge 援引 Tom's Hardware 的报道，Anthropic 更新了 Claude Code 的系统提示，阻止该工具被用于重建现有的电子游戏。"
+        },
+        {
+          "kind": "h2",
+          "text": "新增的两句话"
+        },
+        {
+          "kind": "p",
+          "text": "上周，一名用户在 X 上发布截图，称 Claude Code 的系统提示新增了两句话，大意是：可以做原创游戏、某一类型的游戏，以及基于用户自己的设计与素材的游戏；但不要重建某个特定现有游戏。"
+        },
+        {
+          "kind": "marker",
+          "text": "系统提示"
+        },
+        {
+          "kind": "p",
+          "text": "报道称，复古游戏领域目前充斥着 AI 制作的反编译、重编译与移植版本。Anthropic 仍允许人们用 Claude Code 制作游戏，只是不希望它被用于直接克隆。"
+        },
+        {
+          "kind": "h2",
+          "text": "边界在哪里"
+        },
+        {
+          "kind": "p",
+          "text": "系统提示属于软性约束，并非技术层面的硬性拦截。如何区分“某一类型的游戏”与“特定现有游戏”的复刻，仍取决于模型判断，素材中未给出更细的判定标准。"
+        }
+      ],
+      "aiBrief": {
+        "background": "AI 编程工具降低了游戏开发门槛，复古游戏社区出现大量由 AI 完成的反编译、重编译与移植。Anthropic 选择在系统提示层面加入限制，而非改动模型能力。",
+        "impact": "这为 AI 编程工具的用途边界提供了一个样本：厂商可以在不封锁能力的前提下，通过提示词表达对版权与原创的态度。其他工具厂商可能跟进类似约束。",
+        "debate": "系统提示可被绕过，约束力有限。原创与复刻之间的界线在游戏品类中本就模糊，仅靠两句提示能否有效执行，仍待观察。",
+        "terms": [
+          {
+            "term": "系统提示",
+            "explanation": "在对话开始前注入给模型的指令，用于设定行为规范与边界，用户通常不可见。"
+          },
+          {
+            "term": "反编译",
+            "explanation": "把已编译的程序还原为可读代码的过程，常被用于研究或移植旧游戏。"
+          }
+        ]
+      },
+      "originalUrls": [
+        "https://www.theverge.com/ai-artificial-intelligence/1024632/anthropic-claude-ai-video-game-clones"
+      ]
+    },
+    {
+      "id": "2026-11-03-13",
+      "no": "13",
+      "category": "产品",
+      "title": "Google Dreambeans 登陆印度",
+      "why": "AI 生成个人故事实验支持 13 种印度语言，是 Google 面向大众市场的多语言 AI 内容尝试。",
+      "readMinutes": 3,
+      "publishedAt": "11:30",
+      "entities": [
+        "deepmind"
+      ],
+      "aiPoints": [
+        "Dreambeans 是 Google 的 AI 生成个人故事实验",
+        "此次进入印度市场，支持 13 种印度语言",
+        "定位大众市场，强调多语言内容生成"
+      ],
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "monogram": "TC",
+          "time": "11:30",
+          "credibility": "高",
+          "note": "科技媒体，AI 产业报道",
+          "url": "https://techcrunch.com/2026/11/02/google-takes-dreambeans-to-india-in-bid-to-bring-ai-generated-personal-stories-to-the-masses/"
+        }
+      ],
+      "body": [
+        {
+          "kind": "p",
+          "text": "Google 的 AI 实验项目 Dreambeans 进入印度市场。据 TechCrunch 报道，这项实验用于生成个人故事，目前支持 13 种印度语言。"
+        },
+        {
+          "kind": "h2",
+          "text": "多语言是重点"
+        },
+        {
+          "kind": "p",
+          "text": "印度语言种类多、使用分散，单一英语产品很难覆盖大众用户。Dreambeans 一次支持 13 种印度语言，说明 Google 把多语言能力当作这类内容产品的入口，而不是附加功能。"
+        },
+        {
+          "kind": "marker",
+          "text": "Dreambeans"
+        },
+        {
+          "kind": "p",
+          "text": "从公开信息看，Dreambeans 仍被 Google 称为实验项目，产品形态和开放范围没有更多细节。它更像是面向普通用户的 AI 内容生成尝试，而非面向开发者的工具。"
+        },
+        {
+          "kind": "h2",
+          "text": "大众市场的试探"
+        },
+        {
+          "kind": "p",
+          "text": "把个人故事生成推向人口规模庞大的印度市场，考验的是语言覆盖、内容质量和本地化程度。素材未披露用户规模与具体功能边界，后续进展值得观察。"
+        }
+      ],
+      "aiBrief": {
+        "background": "Dreambeans 是 Google 推出的 AI 实验项目，主打生成个人故事。此次登陆印度，支持 13 种印度语言，被视为面向大众市场的多语言内容尝试。",
+        "impact": "多语言覆盖能降低非英语用户的使用门槛，也让 AI 内容生成从英语市场走向更广泛人群。对 Google 而言，这是一次产品本地化与用户习惯培养的测试。",
+        "debate": "素材未说明生成内容的质量控制、隐私处理与商业化方式。个人故事涉及用户个人信息，多语言生成的效果是否稳定，也缺少公开评测。",
+        "terms": [
+          {
+            "term": "Dreambeans",
+            "explanation": "Google 的 AI 实验项目，用于生成个人故事，此次在印度支持 13 种当地语言。"
+          },
+          {
+            "term": "多语言支持",
+            "explanation": "产品界面与生成内容可覆盖多种语言，降低非英语用户的使用门槛。"
+          }
+        ]
+      },
+      "originalUrls": [
+        "https://techcrunch.com/2026/11/02/google-takes-dreambeans-to-india-in-bid-to-bring-ai-generated-personal-stories-to-the-masses/"
+      ]
+    },
+    {
+      "id": "2026-11-03-14",
+      "no": "14",
+      "category": "产品",
+      "title": "阿里云发布 AI 投研工作台 Qovest",
+      "why": "一句话需求即自动查数据、分析、生成报告并持续跟踪，把 Agent 推向专业投研场景。",
+      "readMinutes": 4,
+      "publishedAt": "15:09",
+      "entities": [],
+      "aiPoints": [
+        "一句话提出需求，自动查数据、分析并生成报告",
+        "支持按频率持续跟踪研究对象",
+        "个人用户已开放邀测，后续有订阅套餐"
+      ],
+      "sources": [
+        {
+          "name": "雷峰网",
+          "monogram": "LF",
+          "time": "15:09",
+          "credibility": "中",
+          "note": "中文科技媒体",
+          "url": "https://www.leiphone.com/category/industrynews/MFtJXmU8YNMGMig6.html"
+        }
+      ],
+      "body": [
+        {
+          "kind": "p",
+          "text": "11 月 2 日，阿里云发布面向专业机构投资者的 AI 投研工作台 Qovest。用户用一句话提出研究需求，它就会自动查数据、收集资料、深度分析并生成报告，还能按设定频率持续跟踪研究对象。"
+        },
+        {
+          "kind": "h2",
+          "text": "从一次性问答到持续研究"
+        },
+        {
+          "kind": "p",
+          "text": "与一次性问答不同，Qovest 把每次研究结果沉淀到投研空间，让一项研究可以接着往下做。素材举例，有基金经理为某只黄金 ETF 建立跟踪研究，圈定国际金价、美元指数、全球 ETF 持仓、央行购金等变量后，Qovest 每周自动更新数据并生成动态跟踪看板。"
+        },
+        {
+          "kind": "marker",
+          "text": "Harness"
+        },
+        {
+          "kind": "p",
+          "text": "专业投研对 Agent 的要求更高：数据要实时准确，输出要有明确出处。Qovest 团队采购权威金融数据库并部署在阿里云上，自研面向金融场景的 Agent 工程框架 Harness，打通从数据调用到分析输出的流程。"
+        },
+        {
+          "kind": "h2",
+          "text": "定价与开放节奏"
+        },
+        {
+          "kind": "p",
+          "text": "目前 Qovest 官网已对个人用户开放邀测，新用户注册后可获积分免费试用，后续可选择每月 99 元或 199 元的订阅套餐。近期还将推出企业版，服务金融机构及企业的投研团队。素材称，在 FinFirst 与 IRAB 的内部横向评测中，Qovest 的回答质量、响应速度、成本领先于参与评测的主流产品。"
+        }
+      ],
+      "aiBrief": {
+        "background": "阿里云推出 AI 投研工作台 Qovest，面向专业机构投资者。产品以一句话需求为起点，自动完成数据查询、资料收集、分析与报告生成，并支持定时跟踪。",
+        "impact": "这类产品把 Agent 从通用问答推向高门槛的专业场景，对数据准确性、出处可追溯和成本控制提出更高要求，也意味着 AI 工具开始进入投研工作流。",
+        "debate": "素材中的评测结果来自内部横向评测，缺少第三方复现。金融数据的授权范围、报告结论的责任归属，以及订阅定价能否被专业用户接受，仍需观察。",
+        "terms": [
+          {
+            "term": "Harness",
+            "explanation": "Qovest 团队自研的面向金融场景的 Agent 工程框架，用于打通数据调用到分析输出的流程。"
+          },
+          {
+            "term": "投研空间",
+            "explanation": "Qovest 中沉淀研究成果、操盘笔记与待验证问题的空间，让研究可追溯、可接着做。"
+          }
+        ]
+      },
+      "originalUrls": [
+        "https://www.leiphone.com/category/industrynews/MFtJXmU8YNMGMig6.html"
+      ]
+    },
+    {
+      "id": "2026-11-03-15",
+      "no": "15",
+      "category": "开源",
+      "title": "小米开源 150 元 AI 小硬件",
+      "why": "能指挥 Agent 干活并控制智能家居，低价开源硬件火到配件涨价，降低智能体入口门槛。",
+      "readMinutes": 3,
+      "publishedAt": "21:28",
+      "entities": [],
+      "aiPoints": [
+        "小米开源一款约 150 元的 AI 小硬件",
+        "可指挥 Agent 干活，也能控制智能家居",
+        "热度带动配件涨价，降低智能体入口门槛"
+      ],
+      "sources": [
+        {
+          "name": "量子位",
+          "monogram": "QB",
+          "time": "21:28",
+          "credibility": "中",
+          "note": "中文 AI 媒体",
+          "url": "https://www.qbitai.com/2026/11/507076.html"
+        }
+      ],
+      "body": [
+        {
+          "kind": "p",
+          "text": "据量子位报道，小米开源了一款约 150 元的 AI 小硬件，能指挥 Agent 干活，还能控制智能家居。产品热度上升，甚至带动配件涨价。"
+        },
+        {
+          "kind": "h2",
+          "text": "低价硬件的入口意义"
+        },
+        {
+          "kind": "p",
+          "text": "智能体通常通过手机或电脑上的软件使用，而一款百元级硬件把入口做成了独立设备。价格低、源码开放，意味着更多开发者可以基于它做二次开发，尝试把 Agent 接入家庭场景。"
+        },
+        {
+          "kind": "marker",
+          "text": "Agent"
+        },
+        {
+          "kind": "p",
+          "text": "素材提到它能指挥 Agent 干活，也能控制智能家居，但未披露具体型号、芯片方案与开源协议细节。配件涨价则从侧面反映出需求超出了预期。"
+        },
+        {
+          "kind": "h2",
+          "text": "开源带来的扩散"
+        },
+        {
+          "kind": "p",
+          "text": "开源硬件降低了尝试门槛，也把生态建设交给社区。它能否从短期热度变成稳定的开发平台，取决于文档、配件供应和后续维护，这些信息目前仍然有限。"
+        }
+      ],
+      "aiBrief": {
+        "background": "小米开源了一款约 150 元的 AI 小硬件，据量子位报道，它能指挥 Agent 干活并控制智能家居，产品走红后配件价格出现上涨。",
+        "impact": "低价开源硬件把智能体入口从软件扩展到实体设备，吸引开发者做二次开发，也让智能家居成为 Agent 的落地场景之一。",
+        "debate": "素材未说明具体型号、开源协议与配件涨价幅度。低价硬件的算力与稳定性是否足以支撑长期使用，社区生态能否持续，都还是未知数。",
+        "terms": [
+          {
+            "term": "Agent",
+            "explanation": "能自主执行任务的 AI 程序，这里指由小硬件指挥、完成具体工作的智能体。"
+          },
+          {
+            "term": "开源硬件",
+            "explanation": "设计资料与软件源码公开的硬件产品，开发者可自行修改和二次开发。"
+          }
+        ]
+      },
+      "originalUrls": [
+        "https://www.qbitai.com/2026/11/507076.html"
+      ]
+    },
+    {
+      "id": "2026-11-03-16",
+      "no": "16",
+      "category": "模型",
+      "title": "OpenAI 发布 LifeVal 日常任务基准",
+      "why": "衡量 AI 帮人完成找托育、理财、政务等日常事务的能力，把评测从考试转向真实生活。",
+      "readMinutes": 3,
+      "publishedAt": "17:00",
+      "entities": [
+        "openai"
+      ],
+      "aiPoints": [
+        "OpenAI 推出 LifeVal 基准",
+        "衡量 AI 帮助完成日常事务的能力",
+        "覆盖找托育、理财、政务文书等场景"
+      ],
+      "sources": [
+        {
+          "name": "OpenAI",
+          "monogram": "OA",
+          "time": "17:00",
+          "credibility": "高",
+          "note": "官方发布",
+          "url": "https://openai.com/index/lifeval"
+        }
+      ],
+      "body": [
+        {
+          "kind": "p",
+          "text": "OpenAI 发布名为 LifeVal 的基准，用来衡量 AI 帮助人们完成日常任务的能力，覆盖从找托育、管理财务到处理政府文书等场景。"
+        },
+        {
+          "kind": "h2",
+          "text": "评测对象转向生活事务"
+        },
+        {
+          "kind": "p",
+          "text": "常见评测多围绕考试题或专业任务设计，LifeVal 关注的是普通人每天要处理的事情。这类任务往往步骤多、信息分散，还需要在多个渠道之间来回确认，更接近 AI 助手的实际使用方式。"
+        },
+        {
+          "kind": "marker",
+          "text": "LifeVal"
+        },
+        {
+          "kind": "p",
+          "text": "素材只给出基准的定位和覆盖范围，没有披露题目数量、评分方式与参与评测的模型结果。因此目前还无法判断各家模型在这项基准上的表现差距。"
+        },
+        {
+          "kind": "h2",
+          "text": "为什么值得关注"
+        },
+        {
+          "kind": "p",
+          "text": "如果 AI 要进入日常生活，评测标准也需要跟着变化。LifeVal 把找托育、理财、政务文书这类事务纳入衡量范围，为比较不同助手在真实场景中的可用性提供了一个公开参照。"
+        }
+      ],
+      "aiBrief": {
+        "background": "OpenAI 发布 LifeVal 基准，用于衡量 AI 帮助人们完成日常任务的能力，涵盖找托育、管理财务和处理政府文书等生活场景。",
+        "impact": "评测从考试型任务转向生活事务，更贴近 AI 助手的实际用途，也为开发者比较产品在真实场景中的表现提供参照。",
+        "debate": "素材未披露题目规模、评分标准与模型成绩，基准能否代表不同地区的生活场景也存在疑问。日常事务涉及隐私与准确性，评测如何覆盖这些维度尚不明确。",
+        "terms": [
+          {
+            "term": "LifeVal",
+            "explanation": "OpenAI 发布的基准，衡量 AI 帮助人们完成找托育、理财、政务文书等日常任务的能力。"
+          },
+          {
+            "term": "基准",
+            "explanation": "用于统一衡量模型能力的测试集与评分方法，便于横向比较不同模型的表现。"
+          }
+        ]
+      },
+      "originalUrls": [
+        "https://openai.com/index/lifeval"
+      ]
+    },
+    {
+      "id": "2026-11-03-17",
+      "no": "17",
+      "category": "模型",
+      "title": "OpenAI 重写大模型行为法则",
+      "why": "新版“机器人三定律”强调忠于人类，为模型对齐与行为约束提供公开原则框架。",
+      "readMinutes": 3,
+      "publishedAt": "14:08",
+      "entities": [
+        "openai"
+      ],
+      "aiPoints": [
+        "OpenAI 重写大模型行为法则",
+        "新版原则被类比为“机器人三定律”",
+        "强调忠于人类，为对齐提供框架"
+      ],
+      "sources": [
+        {
+          "name": "量子位",
+          "monogram": "QB",
+          "time": "14:08",
+          "credibility": "中",
+          "note": "中文 AI 媒体",
+          "url": "https://www.qbitai.com/2026/11/507107.html"
+        }
+      ],
+      "body": [
+        {
+          "kind": "p",
+          "text": "OpenAI 重写了大模型的行为法则，新版原则被类比为“机器人三定律”，核心强调忠于人类，为模型对齐与行为约束提供公开的原则框架。"
+        },
+        {
+          "kind": "h2",
+          "text": "原则框架的作用"
+        },
+        {
+          "kind": "p",
+          "text": "模型行为规范通常写在系统提示与训练流程里，外界难以看到。公开一套行为法则，相当于把约束条件摆到台面上，既方便内部执行，也让开发者和用户理解模型被期望如何行动。"
+        },
+        {
+          "kind": "marker",
+          "text": "对齐"
+        },
+        {
+          "kind": "p",
+          "text": "素材只提到新版法则强调忠于人类，没有给出具体条款、适用范围与执行方式。它与“机器人三定律”的类比来自报道表述，并非 OpenAI 的原文措辞。"
+        },
+        {
+          "kind": "h2",
+          "text": "仍待明确的边界"
+        },
+        {
+          "kind": "p",
+          "text": "行为法则写得清楚，不等于模型一定照做。原则如何转化为训练与评测中的具体约束，出现冲突时如何取舍，这些细节决定了框架的实际价值。"
+        }
+      ],
+      "aiBrief": {
+        "background": "OpenAI 重写大模型行为法则，新版原则强调忠于人类，被类比为“机器人三定律”，为模型对齐与行为约束提供公开的原则框架。",
+        "impact": "公开行为原则有助于外界理解模型的约束边界，也为行业讨论对齐标准提供参照。原则能否落实到训练和产品中，会影响用户对模型的信任。",
+        "debate": "素材未披露具体条款与执行机制。原则性表述在具体场景中可能相互冲突，如何取舍缺少说明；类比“机器人三定律”也只是报道说法。",
+        "terms": [
+          {
+            "term": "对齐",
+            "explanation": "让模型的行为符合人类意图与价值取向的技术方向，涉及训练、评测与产品约束。"
+          },
+          {
+            "term": "机器人三定律",
+            "explanation": "科幻作家阿西莫夫提出的机器人行为准则，常被用来类比 AI 行为规范。"
+          }
+        ]
+      },
+      "originalUrls": [
+        "https://www.qbitai.com/2026/11/507107.html"
+      ]
+    },
+    {
+      "id": "2026-11-03-18",
+      "no": "18",
+      "category": "产品",
+      "title": "OpenAI 自建 Git 后端 Pando",
+      "why": "为 Codex 带来的开发规模打造兼容 Git 的后端，反映 AI 编码对工程基础设施的冲击。",
+      "readMinutes": 3,
+      "publishedAt": "23:30",
+      "entities": [
+        "openai"
+      ],
+      "aiPoints": [
+        "OpenAI 构建兼容 Git 的后端 Pando",
+        "面向 Codex 带来的开发规模",
+        "反映 AI 编码对工程基础设施的冲击"
+      ],
+      "sources": [
+        {
+          "name": "OpenAI",
+          "monogram": "OA",
+          "time": "23:30",
+          "credibility": "高",
+          "note": "官方发布",
+          "url": "https://openai.com/index/scaling-git-at-openai"
+        }
+      ],
+      "body": [
+        {
+          "kind": "p",
+          "text": "OpenAI 介绍了自建的 Git 兼容后端 Pando，称其面向 Codex 所带来的开发规模。这意味着 AI 编码工具产生的代码与提交量，已经开始对传统代码托管基础设施形成压力。"
+        },
+        {
+          "kind": "h2",
+          "text": "为什么需要新后端"
+        },
+        {
+          "kind": "p",
+          "text": "Git 长期服务于人类开发者的协作节奏，而 AI 编码代理可以高频生成提交、分支与合并操作。当这类操作的数量和并发显著上升，仓库读写、存储与同步都会成为瓶颈，兼容 Git 的自建后端因此有了需求。"
+        },
+        {
+          "kind": "marker",
+          "text": "Pando"
+        },
+        {
+          "kind": "p",
+          "text": "素材只说明 Pando 是兼容 Git 的后端，未披露其架构细节、性能数据与部署范围。它与现有 Git 托管服务的差异，目前无法从公开信息判断。"
+        },
+        {
+          "kind": "h2",
+          "text": "基础设施层面的信号"
+        },
+        {
+          "kind": "p",
+          "text": "AI 编码的影响不只在模型能力，也在工程工具链。OpenAI 为自身开发规模改造版本控制后端，说明 AI 代理的普及正在把压力传导到最基础的开发设施上。"
+        }
+      ],
+      "aiBrief": {
+        "background": "OpenAI 构建了名为 Pando 的 Git 兼容后端，用于支撑 Codex 带来的开发规模。Codex 是 OpenAI 的编码产品，其使用量增长对代码托管基础设施提出新要求。",
+        "impact": "AI 编码代理高频产生提交与分支操作，传统 Git 托管可能难以承受。自建兼容后端表明，AI 对开发工具链的影响已深入到版本控制这一基础层。",
+        "debate": "素材未披露 Pando 的架构、性能数据与开放范围，外界难以评估其实际效果。兼容 Git 的自建后端是否会对外提供服务，也尚无说明。",
+        "terms": [
+          {
+            "term": "Pando",
+            "explanation": "OpenAI 自建的 Git 兼容后端，设计目标是支撑 Codex 带来的开发规模。"
+          },
+          {
+            "term": "Codex",
+            "explanation": "OpenAI 的编码产品，AI 代理可据此生成代码与提交，带来更高的开发操作频率。"
+          }
+        ]
+      },
+      "originalUrls": [
+        "https://openai.com/index/scaling-git-at-openai"
+      ]
+    },
+    {
+      "id": "2026-11-03-19",
+      "no": "19",
+      "category": "具身",
+      "title": "智元发布 Worken 度量衡",
+      "why": "以 2 万台出货与 Worken 算力账本，回应 GPT-6 后机器人公司价值之问，给出商业化路径。",
+      "readMinutes": 5,
+      "publishedAt": "18:21",
+      "entities": [
+        "embodied"
+      ],
+      "aiPoints": [
+        "智元提出 Worken 度量有效智能工时",
+        "上半年出货 9700 台，9 月第 2 万台下线",
+        "发布 GO-3、AGILE、WITA-Omni 等技术"
+      ],
+      "sources": [
+        {
+          "name": "雷峰网",
+          "monogram": "LF",
+          "time": "18:21",
+          "credibility": "中",
+          "note": "中文科技媒体",
+          "url": "https://www.leiphone.com/category/ai/d2myOaWdKKFW23lm.html"
+        }
+      ],
+      "body": [
+        {
+          "kind": "p",
+          "text": "10 月 29 日，智元在上海世博中心举办创新日发布会，创始人稚晖君、合伙人姚卯青、熊彦、王闯等出席。面对 GPT-6 后机器人公司价值何在的行业焦虑，智元给出了一套以 Worken 为核心的回应。"
+        },
+        {
+          "kind": "h2",
+          "text": "Worken：用有效工时重新定价机器人"
+        },
+        {
+          "kind": "p",
+          "text": "稚晖君提出 Worken（有效智能工时）概念，公式为活跃机器人数量乘以自主工作时长再乘以产出效能比。宕机、离线、维护中的机器不算活跃，遥操作时段不计入自主工时，产出效能比以标准工人单位时间合格产出为 1.0。现场展示了龙旗产线、香格里拉酒店、长隆乐园的实时工时看板。稚晖君表示，未来对机器人的服务要按 Worken 计费。"
+        },
+        {
+          "kind": "marker",
+          "text": "Worken"
+        },
+        {
+          "kind": "p",
+          "text": "智元公布经营数据：2026 年上半年出货 9700 台，以超 43% 份额居全球第一；9 月第 2 万台机器人下线，从万台到两万台仅用半年；上半年收入接近 20 亿元。合伙人王闯称量产依托 100% 本土化 A 链、半小时供应链圈和 92 项车规级量产测试。人机运维比已从 1:1 降至 10:1，目标 30:1。"
+        },
+        {
+          "kind": "h2",
+          "text": "技术矩阵为三个乘数上保险"
+        },
+        {
+          "kind": "p",
+          "text": "智元发布第三代具身基座模型 GO-3 Preview、四层架构 AGILE 运动引擎、全模态交互大模型 WITA-Omni、第三代硬件架构 AHA3 及重载本体 G2 Max。GO-3 在 RoboDojo 等三大权威榜单登顶，并与清华联合研发群体经验学习模块 CEL，实测 100 台机器人集群训练任务成功率从 50% 量级拉到 98%。WITA-Omni 实现边听边想边说，响应最快 400 毫秒。中国信通院等联合编制的《2026 具身智能产业创新报告》收录了 Worken 及相关部署态实例。"
+        }
+      ],
+      "aiBrief": {
+        "background": "2026 年具身智能赛道陷入焦虑，GPT-6 Astra 展示的具身控制能力让物理 AI 即将被击穿的论调盛行。中国机器人整机产量预计突破 10 万台，但真正替代现实工作的寥寥无几。智元在 4 月 APC 大会提出部署态元年后，此次发布会给出度量与算账方案。",
+        "impact": "Worken 试图为物理 AI 建立类似 Token 的计价单位，让智能成为可定价交易的商品。从卖机器人转向卖工时，客户购买的是持续进化的生产力单元而非折旧设备。若被行业采纳，将影响机器人采购、服务计费和资本评估方式，信通院报告的收录提供了初步权威背书。",
+        "debate": "Worken 公式中产出效能比以标准工人为 1.0，如何在不同产线、不同任务间公平折算仍待验证。智元自身出货与收入数据由公司单方面公布，第三方审计缺失。行业是否接受单一厂商提出的度量衡，还是形成多家标准竞争，目前尚不明朗。",
+        "terms": [
+          {
+            "term": "Worken",
+            "explanation": "智元提出的有效智能工时单位，等于活跃机器人数量乘以自主工作时长再乘以产出效能比，用于衡量机器人真实生产力。"
+          },
+          {
+            "term": "VLA",
+            "explanation": "视觉-语言-动作模型，将视觉感知、语言指令与动作输出统一建模，使机器人能理解指令并执行操作。"
+          }
+        ]
+      },
+      "originalUrls": [
+        "https://www.leiphone.com/category/ai/d2myOaWdKKFW23lm.html"
+      ]
+    },
+    {
+      "id": "2026-11-03-20",
+      "no": "20",
+      "category": "具身",
+      "title": "董豪谈启元机器人终局",
+      "why": "29 岁北大博导任首席科学家，主张具身不能一上来什么都干，代表学术派落地思路。",
+      "readMinutes": 5,
+      "publishedAt": "18:34",
+      "entities": [
+        "embodied"
+      ],
+      "aiPoints": [
+        "董豪任启元首席科学家攻坚家用具身",
+        "提出 HIL-UMI、Scaling Law 和量产三关键词",
+        "认为等待策略不可取，必须下场做"
+      ],
+      "sources": [
+        {
+          "name": "雷峰网",
+          "monogram": "LF",
+          "time": "18:34",
+          "credibility": "中",
+          "note": "中文科技媒体",
+          "url": "https://www.leiphone.com/category/ai/1mfsMzxNwaTmqZ7e.html"
+        }
+      ],
+      "body": [
+        {
+          "kind": "p",
+          "text": "董豪是具身行业里的非典型选手。29 岁成为北大博导，读博前有三年创业经历，智元创立时是最早加入的核心成员之一。如今他出任启元机器人首席科学家，带队攻坚家用具身智能。他在接受雷峰网访谈时表示，做具身不能一上来什么都干，也不能什么都不干。"
+        },
+        {
+          "kind": "h2",
+          "text": "从创业折戟到北大再到产业"
+        },
+        {
+          "kind": "p",
+          "text": "2012 年硕士毕业后，董豪婉拒导师读博建议回国创业，做可穿戴设备与脑机接口，住过工厂八人间宿舍。三年后市场被大厂快速挤压，他转身回帝国理工读博，期间主导开发的开源框架获 ACM MM 最佳开源软件奖。2023 年智元创立，他作为核心成员加入，成立北大智元联合实验室。他总结，前沿技术和市场之间有时间间隔，这是花三年买来的认知。"
+        },
+        {
+          "kind": "h2",
+          "text": "启元选择最难的 ToC 终局"
+        },
+        {
+          "kind": "p",
+          "text": "董豪认为，具身智能市场空间大，可突破的点很多，ToB 场景短期收益较好获得，比如工厂可复制化工位和分拣。但启元选择面向家庭消费场景，必须实现通用作业智能，需要通才具身智能大模型。他给出的三个关键词是 HIL-UMI、Scaling Law 和量产。对于行业等待策略，他直言不认同：你就算把钱存着也存不了多少，反正肯定要搏一搏。"
+        },
+        {
+          "kind": "marker",
+          "text": "HIL-UMI"
+        },
+        {
+          "kind": "p",
+          "text": "谈到量产，董豪表示外行看量产是个数字，做过硬件的人看到的是几千个细节配合，测试项厚得像一本书。他回忆当年做小产品都觉得难，现在造整机机器人要一个个标准打过去。对于启元与智元的分工，他说智元以 ToB 场景落地为主，启元 ToC 面向家庭，需要通用导航、人机互动和通用作业智能，最难也最泛化。"
+        }
+      ],
+      "aiBrief": {
+        "background": "具身智能行业热议大模型与通用机器人宏大叙事，但靠上万台真机做后训练成本高企，落地路径分歧明显。一批公司选择 ToB 场景快速变现，另一批押注通用能力。董豪兼具创业、学术和产业履历，其选择具有样本意义。",
+        "impact": "董豪的观点代表学术派落地思路：聚焦真实问题，反对盲目等待，主张在 ToC 终局上投入通用大模型。启元的选择将检验家用具身智能能否在成本可控前提下实现通用作业，也为行业提供 ToB 与 ToC 路线对照。",
+        "debate": "ToC 家用场景对安全性、泛化能力和成本要求极高，商业化周期可能远长于 ToB。董豪承认量产极难，HIL-UMI 等方案能否降低真机后训练成本尚无公开数据。等待策略是否真的不可取，不同公司资金与资源禀赋不同，结论未必一致。",
+        "terms": [
+          {
+            "term": "HIL-UMI",
+            "explanation": "董豪提出的关键词之一，指向结合人类示范与通用操作接口的数据采集或训练方法，用于降低真机后训练成本。"
+          },
+          {
+            "term": "Scaling Law",
+            "explanation": "规模定律，指模型性能随数据、参数或算力增加而可预测提升的规律，在具身领域延伸至真机数据规模。"
+          }
+        ]
+      },
+      "originalUrls": [
+        "https://www.leiphone.com/category/ai/1mfsMzxNwaTmqZ7e.html"
+      ]
+    },
+    {
+      "id": "2026-11-03-21",
+      "no": "21",
+      "category": "具身",
+      "title": "AI 智能体给活鼠脑注射药物",
+      "why": "生物初创让 Agent 选择基因疗法并成功注射，展示智能体进入真实实验操作的边界。",
+      "readMinutes": 3,
+      "publishedAt": "18:00",
+      "entities": [
+        "embodied"
+      ],
+      "aiPoints": [
+        "生物初创让 AI 智能体选择基因疗法",
+        "智能体成功向活鼠大脑注射治疗",
+        "展示 AI 进入真实实验室操作的边界"
+      ],
+      "sources": [
+        {
+          "name": "Wired",
+          "monogram": "WI",
+          "time": "18:00",
+          "credibility": "高",
+          "note": "科技媒体，AI 与社会",
+          "url": "https://www.wired.com/story/an-ai-agent-did-brain-surgery-on-live-mouse/"
+        }
+      ],
+      "body": [
+        {
+          "kind": "p",
+          "text": "据 Wired 报道，一家生物技术初创公司让 AI 智能体选择基因疗法，并成功向活体小鼠大脑注射了治疗药物。这一操作提供了对研究实验室未来的惊人一瞥。"
+        },
+        {
+          "kind": "h2",
+          "text": "智能体从决策到操作"
+        },
+        {
+          "kind": "p",
+          "text": "报道称，该智能体不仅参与选择治疗方案，还完成了实际注射操作。这意味着 AI 智能体正在从屏幕内的信息处理，进入需要物理精度和实时判断的真实实验场景。对于需要大量重复、精细操作的生物研究而言，这类能力可能改变实验流程的分工方式。"
+        },
+        {
+          "kind": "marker",
+          "text": "AI 智能体"
+        },
+        {
+          "kind": "p",
+          "text": "素材未披露该初创公司名称、智能体具体技术架构、注射成功率及是否经过同行评审。Wired 的报道将其描述为对研究实验室未来的 startling glimpse，但具体边界和可复现性仍需更多信息判断。"
+        },
+        {
+          "kind": "h2",
+          "text": "边界与待解问题"
+        },
+        {
+          "kind": "p",
+          "text": "让 AI 智能体在活体动物上进行脑部操作，涉及伦理审查、操作安全和责任归属。目前公开信息有限，无法确认该智能体在多大程度上自主决策、多少环节由人类监督。这一案例更多是方向性信号，而非成熟产品的证明。"
+        }
+      ],
+      "aiBrief": {
+        "background": "AI 智能体已在软件操作、网页浏览等数字环境展现实用能力，但进入物理实验室执行精细操作仍是前沿。生物医学研究对操作精度和可重复性要求极高，传统依赖训练有素的研究人员。",
+        "impact": "若智能体能可靠完成基因疗法选择和脑部注射，将可能加速临床前研究流程，降低对稀缺实验人力的依赖。同时也推动具身智能与生物实验自动化的交叉，为实验室自动化设备商和 AI 公司提供新场景。",
+        "debate": "活体动物脑部注射涉及重大伦理和安全风险，AI 自主决策的边界需要严格监管。报道未提供成功率、监督机制和同行评审信息，无法评估其可靠性。智能体出错时的责任归属也缺乏明确框架。",
+        "terms": [
+          {
+            "term": "AI 智能体",
+            "explanation": "能够感知环境、自主决策并执行动作以完成目标的 AI 系统，可运行于软件环境或通过机械装置作用于物理世界。"
+          },
+          {
+            "term": "基因疗法",
+            "explanation": "通过导入、修复或调控基因来治疗疾病的医学方法，常需精准递送到特定组织，脑部注射难度尤其高。"
+          }
+        ]
+      },
+      "originalUrls": [
+        "https://www.wired.com/story/an-ai-agent-did-brain-surgery-on-live-mouse/"
+      ]
+    },
+    {
+      "id": "2026-11-03-22",
+      "no": "22",
+      "category": "模型",
+      "title": "42AI 出隐身推行为预测世界模型",
+      "why": "获 6250 万美元融资，称可在全新情境预测人类行为，世界模型赛道再添玩家。",
+      "readMinutes": 3,
+      "publishedAt": "00:30",
+      "entities": [],
+      "aiPoints": [
+        "42AI 结束隐身并获 6250 万美元融资",
+        "称世界模型可在全新情境预测人类行为",
+        "世界模型赛道再添新玩家"
+      ],
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "monogram": "TC",
+          "time": "00:30",
+          "credibility": "高",
+          "note": "科技媒体，AI 产业报道",
+          "url": "https://techcrunch.com/2026/11/02/42ai-comes-out-of-stealth-with-62-5m-and-a-world-model-that-can-predict-human-behavior/"
+        }
+      ],
+      "body": [
+        {
+          "kind": "p",
+          "text": "据 TechCrunch 报道，42AI 结束隐身状态，获得 6250 万美元融资，并推出一款声称能够预测人类行为的世界模型。报道用科幻式提问开篇：如果 AI 能在你决定之前预测你要做什么，甚至在全新情境中也如此，会怎样？"
+        },
+        {
+          "kind": "h2",
+          "text": "世界模型的新卖点"
+        },
+        {
+          "kind": "p",
+          "text": "世界模型通常指让 AI 学习环境动态并预测未来状态的模型。42AI 的差异化主张在于预测人类行为，且强调在全新情境中也能工作。若属实，这类能力可应用于人机交互、自动驾驶、机器人协作和商业决策等需要预判人类意图的场景。"
+        },
+        {
+          "kind": "marker",
+          "text": "世界模型"
+        },
+        {
+          "kind": "p",
+          "text": "素材未披露 42AI 的技术细节、模型规模、训练数据来源和预测准确率，也未说明 6250 万美元融资的投资方和估值。TechCrunch 的报道以提问方式呈现其愿景，具体能力仍需第三方验证。"
+        },
+        {
+          "kind": "h2",
+          "text": "赛道竞争与验证难题"
+        },
+        {
+          "kind": "p",
+          "text": "世界模型已成为多家公司和研究机构争夺的方向，但如何评估预测人类行为的准确性、如何处理全新情境中的分布外问题，仍是开放挑战。42AI 的隐身结束和融资为其提供了资源，但产品化路径和客户场景尚不清晰。"
+        }
+      ],
+      "aiBrief": {
+        "background": "世界模型近年成为 AI 研究热点，目标让模型理解物理与社会环境的动态。预测人类行为比预测物理运动更复杂，涉及意图、习惯和情境理解。42AI 在此背景下结束隐身并宣布融资。",
+        "impact": "6250 万美元融资表明资本对世界模型赛道持续关注。若行为预测能力可靠，可提升人机协作、服务机器人和智能助手的主动性。但该领域竞争激烈，42AI 需要证明其技术在真实场景中的泛化能力。",
+        "debate": "在全新情境预测人类行为涉及隐私和操控风险，也可能因个体差异而难以准确。报道未提供技术论文或基准测试结果，预测准确率无法核实。世界模型的定义宽泛，42AI 的产品与现有研究的具体差异尚不明确。",
+        "terms": [
+          {
+            "term": "世界模型",
+            "explanation": "让 AI 学习环境动态并预测未来状态的模型，可用于规划、仿真和决策，是具身智能和自动驾驶的重要基础。"
+          },
+          {
+            "term": "隐身模式",
+            "explanation": "初创公司在不公开宣传的情况下研发产品的阶段，结束隐身通常伴随融资和产品发布。"
+          }
+        ]
+      },
+      "originalUrls": [
+        "https://techcrunch.com/2026/11/02/42ai-comes-out-of-stealth-with-62-5m-and-a-world-model-that-can-predict-human-behavior/"
+      ]
+    },
+    {
+      "id": "2026-11-03-23",
+      "no": "23",
+      "category": "产品",
+      "title": "马斯克因成本限制 Grok Bot",
+      "why": "称 Grok Bot 增速前所未见但成本不可持续，被迫限流，暴露智能体产品的推理成本压力。",
+      "readMinutes": 3,
+      "publishedAt": "00:23",
+      "entities": [],
+      "aiPoints": [
+        "马斯克称 Grok Bot 增速前所未见",
+        "因成本不可持续而限制使用额度",
+        "暴露智能体产品推理成本压力"
+      ],
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "monogram": "TC",
+          "time": "00:23",
+          "credibility": "高",
+          "note": "科技媒体，AI 产业报道",
+          "url": "https://techcrunch.com/2026/11/02/elon-musk-throttles-grok-bot-limits-due-to-unsustainably-high-costs/"
+        }
+      ],
+      "body": [
+        {
+          "kind": "p",
+          "text": "据 TechCrunch 报道，埃隆·马斯克因成本不可持续而限制 Grok Bot 的使用额度。马斯克近期曾称 Grok Bot 拥有他一生中见过的最快的产品增长。"
+        },
+        {
+          "kind": "h2",
+          "text": "增长快，成本更高"
+        },
+        {
+          "kind": "p",
+          "text": "Grok Bot 作为智能体产品，其运行需要持续调用模型推理，成本随使用量线性甚至超线性上升。马斯克将成本描述为不可持续，并据此设置限流，说明即便需求旺盛，推理经济性仍是智能体产品规模化的硬约束。"
+        },
+        {
+          "kind": "marker",
+          "text": "推理成本"
+        },
+        {
+          "kind": "p",
+          "text": "素材未披露 Grok Bot 的具体限流幅度、成本数字、定价策略以及是否会影响付费用户。TechCrunch 的报道聚焦马斯克的表态，未提供公司财务细节。"
+        },
+        {
+          "kind": "h2",
+          "text": "智能体商业化的共同难题"
+        },
+        {
+          "kind": "p",
+          "text": "智能体产品与传统软件不同，每次任务可能涉及多轮模型调用和工具使用，边际成本难以忽略。Grok Bot 的限流案例表明，快速增长的用户量若不能转化为覆盖推理成本的收入，产品将被迫在体验和可持续之间取舍。这一压力并非 xAI 独有。"
+        }
+      ],
+      "aiBrief": {
+        "background": "Grok Bot 是 xAI 推出的智能体产品，马斯克曾高调宣传其增长速度。智能体产品需要多轮推理和工具调用，推理成本远高于普通聊天机器人。随着用户量上升，成本压力迅速显现。",
+        "impact": "限流可能影响用户体验和增长势头，也向行业提示智能体产品的单位经济模型尚未成熟。其他智能体产品可能面临类似取舍，推动厂商优化模型效率、调整定价或限制免费额度。",
+        "debate": "马斯克未公布具体成本数据和限流规则，外界难以判断成本压力是产品特性所致还是运营效率问题。限流是否会影响付费转化和用户留存，以及 xAI 能否通过模型优化降低成本，均存在不确定性。",
+        "terms": [
+          {
+            "term": "推理成本",
+            "explanation": "AI 模型每次生成输出时消耗的算力费用，智能体因多轮调用和工具使用，推理成本通常显著高于单次对话。"
+          },
+          {
+            "term": "限流",
+            "explanation": "服务方对用户使用频率或额度设置上限，以控制服务器负载和成本，常见于免费或高增长期产品。"
+          }
+        ]
+      },
+      "originalUrls": [
+        "https://techcrunch.com/2026/11/02/elon-musk-throttles-grok-bot-limits-due-to-unsustainably-high-costs/"
+      ]
+    },
+    {
+      "id": "2026-11-03-24",
+      "no": "24",
+      "category": "安全",
+      "title": "约 400 款 AI 应用藏深度伪造功能",
+      "why": "WIRED 发现看似普通的中文开发者 AI 工具暗藏生成暴力色情图像视频功能，滥用风险突出。",
+      "readMinutes": 3,
+      "publishedAt": "18:00",
+      "entities": [],
+      "aiPoints": [
+        "WIRED 发现约 400 款应用和网站藏秘密功能",
+        "表面是普通 AI 工具，可生成暴力色情图像视频",
+        "相关应用关联中文开发者"
+      ],
+      "sources": [
+        {
+          "name": "Wired",
+          "monogram": "WI",
+          "time": "18:00",
+          "credibility": "高",
+          "note": "科技媒体，AI 与社会",
+          "url": "https://www.wired.com/story/hundreds-of-mundane-ai-apps-are-hiding-abusive-deepfake-features/"
+        }
+      ],
+      "body": [
+        {
+          "kind": "p",
+          "text": "据 WIRED 报道，其调查发现约 400 款应用和网站看似普通 AI 工具，却隐藏着允许用户生成暴力 AI 图像和视频的秘密功能。这些应用和网站与中文开发者有关联。"
+        },
+        {
+          "kind": "h2",
+          "text": "普通外壳下的滥用功能"
+        },
+        {
+          "kind": "p",
+          "text": "报道称，这些应用表面上提供常规 AI 工具功能，但暗藏生成性虐待深度伪造内容的能力。此类功能通常不会出现在公开应用商店描述中，用户可能需要特定操作才能触发。约 400 款的规模说明这并非孤立现象，而是一条隐蔽的产品线。"
+        },
+        {
+          "kind": "marker",
+          "text": "深度伪造"
+        },
+        {
+          "kind": "p",
+          "text": "素材未披露具体应用名称、分发渠道、受影响人数以及相关平台是否已采取措施。WIRED 的调查指向中文开发者，但未说明这些开发者的地域分布和法律责任归属。"
+        },
+        {
+          "kind": "h2",
+          "text": "平台审核与监管挑战"
+        },
+        {
+          "kind": "p",
+          "text": "隐藏功能给应用商店审核和内容监管带来难题。常规审核可能只检查公开功能，而秘密功能通过更新或特定入口激活。深度伪造生成的暴力色情内容对受害者造成直接伤害，也考验各国对 AI 生成内容的执法能力。"
+        }
+      ],
+      "aiBrief": {
+        "background": "AI 生成图像和视频技术门槛持续降低，深度伪造滥用事件增多。应用商店和网站通常禁止性虐待内容，但部分开发者通过隐藏功能规避审核。WIRED 的调查揭示了这一灰色地带的规模。",
+        "impact": "约 400 款应用的规模表明滥用功能可能已形成产业链，增加受害者维权难度。事件可能推动平台加强隐藏功能检测和开发者背景审查，也可能促使监管机构要求 AI 应用披露生成能力。",
+        "debate": "报道未公开应用名单和取证方法，外界难以独立核实。隐藏功能是否违反具体平台政策、开发者是否应承担刑事责任，在不同司法辖区差异较大。平台审核责任与开发者责任的边界仍是争议焦点。",
+        "terms": [
+          {
+            "term": "深度伪造",
+            "explanation": "利用 AI 生成或篡改图像、视频和音频，使内容看起来真实，常被用于制造虚假信息或性虐待内容。"
+          },
+          {
+            "term": "隐藏功能",
+            "explanation": "应用未在公开描述中展示、需特定操作或更新才能激活的功能，常被用于规避应用商店审核。"
+          }
+        ]
+      },
+      "originalUrls": [
+        "https://www.wired.com/story/hundreds-of-mundane-ai-apps-are-hiding-abusive-deepfake-features/"
+      ]
+    },
     {
       "id": "2026-11-02-01",
       "no": "01",
@@ -9303,6 +11130,42 @@
     }
   ],
   "editions": [
+    {
+      "date": "11.03",
+      "isoDate": "2026-11-03",
+      "weekday": "二",
+      "issue": "第 305 期",
+      "fullDate": "2026 年 11 月 3 日",
+      "pulse": "Anthropic 警告逼近 RSI 自我进化，美团国产算力万亿模型与 GPT-6 Astra 曝光，智能体安全与算力电力成治理焦点。",
+      "count": 24,
+      "done": false,
+      "storyIds": [
+        "2026-11-03-01",
+        "2026-11-03-02",
+        "2026-11-03-03",
+        "2026-11-03-04",
+        "2026-11-03-05",
+        "2026-11-03-06",
+        "2026-11-03-07",
+        "2026-11-03-08",
+        "2026-11-03-09",
+        "2026-11-03-10",
+        "2026-11-03-11",
+        "2026-11-03-12",
+        "2026-11-03-13",
+        "2026-11-03-14",
+        "2026-11-03-15",
+        "2026-11-03-16",
+        "2026-11-03-17",
+        "2026-11-03-18",
+        "2026-11-03-19",
+        "2026-11-03-20",
+        "2026-11-03-21",
+        "2026-11-03-22",
+        "2026-11-03-23",
+        "2026-11-03-24"
+      ]
+    },
     {
       "date": "11.02",
       "isoDate": "2026-11-02",
